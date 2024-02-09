@@ -1,0 +1,256 @@
+.otA {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/background/bg5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  /* padding: 8%; */
+}
+.otAa {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.otAb {
+  font-size: 58px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .otAa {
+    font-size: 18px;
+  }
+  .otAb {
+    font-size: 30px;
+  }
+}
+/* /////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////// */
+.otD {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 60px;
+  background-color: black;
+}
+.otDa {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: 20px calc(100% - 40px);
+  background-size: 100px;
+  background-image: url(../assets/icons/coma.png);
+  padding: 10px;
+}
+.otDaA {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.otDaB {
+  font-size: 28px;
+  text-align: center;
+  padding: 40px 0;
+  padding-bottom: 0;
+}
+.otDaC {
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.5;
+  padding: 10px 0;
+}
+.otDaD {
+  font-size: 20px;
+  text-align: center;
+  padding: 40px 0;
+  font-family: "Gill Sans", "Gill Sans MT";
+}
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////// */
+.otE {
+  padding: 8%;
+  text-align: center;
+  font-weight: bold;
+  background-color: black;
+}
+.otEa {
+  font-size: 48px;
+  padding-bottom: 48px;
+}
+
+.otEb {
+  color: #045d00;
+  font-size: 28px;
+  /* text-align: justify; */
+}
+@media only screen and (max-width: 800px) {
+  .otEa {
+    font-size: 18px;
+    padding-bottom: 28px;
+  }
+  .otEb {
+    font-size: 20px;
+  }
+}
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+.otG {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 100px 50px; */
+  padding: 100px 50px;
+  background-image: url(../assets/icons/coma1.png);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 320px;
+}
+.otGa {
+  width: 40%;
+  /* height: 40vh; */
+  background-image: url(../assets/background/bg5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.otGb {
+  width: 60%;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+.otGbA {
+  font-size: 48px;
+  font-weight: bold;
+}
+.otGbB {
+  height: 7px;
+  background-color: #707070;
+  width: 40%;
+  margin: 20px 0;
+}
+.otGbC {
+  font-size: 25px;
+  /* text-align: justify; */
+}
+@media only screen and (max-width: 800px) {
+  .otGa {
+    width: 100%;
+    height: 110vw;
+  }
+  .otGb {
+    width: 100%;
+  }
+  .otGbA {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .otGbB {
+    height: 5px;
+    width: 40%;
+    margin: 10px 0;
+  }
+  .otGbC {
+    font-size: 18px;
+  }
+}
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+.otH {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.otHa {
+  color: #045d00;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.otHb {
+  font-size: 24px;
+  padding: 30px 0;
+  text-align: center;
+  font-style: italic;
+  width: 75%;
+}
+.otHd {
+  font-size: 24px;
+  padding: 30px 0;
+  text-align: center;
+  /* font-style: italic; */
+  width: 75%;
+  color: white;
+ 
+}
+.otHc {
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 45px;
+  background-color: #6b8163;
+  color: white;
+  cursor: pointer;
+}
+.otHe {
+  font-size: 24px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  .otHa {
+    font-size: 40px;
+  }
+  .otHb {
+    font-size: 18px;
+  }
+  .otHc {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+}
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+.otI {
+  padding: 6% 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.otIa {
+  width: 230px;
+  padding: 20px;
+  object-fit: contain;
+}

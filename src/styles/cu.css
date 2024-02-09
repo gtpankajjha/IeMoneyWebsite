@@ -1,0 +1,80 @@
+.cuA {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/background/bg6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.cuAa {
+  font-size: 64px;
+  padding-bottom: 20px;
+
+}
+.cuAb {
+  font-size: 40px;
+}
+@media only screen and (max-width: 800px) {
+  .cuAa {
+    font-size: 32px;
+  }
+  .cuAb {
+    font-size: 20px;
+  }
+}
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+.cuB {
+  padding: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: black;
+}
+.cuBa {
+  width: 49%;
+  box-sizing: border-box;
+  background-color: #81818122;
+  border-radius: 24px;
+  padding: 40px 0px;
+}
+.cuBaA {
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+.cuBaAa {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+@media only screen and (max-width: 800px) {
+  .cuBa {
+    width: 100%;
+    margin: 20px 0;
+    padding: 60px 10px;
+  }
+  .cuAb {
+    font-size: 20px;
+  }
+  .cuBaA {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .cuBaAa {
+    font-size: 32px;
+  }
+}

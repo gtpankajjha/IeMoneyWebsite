@@ -1,0 +1,150 @@
+.blA {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/background/bg6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8%;
+  color: white;
+  text-align: center;
+}
+.blC {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/public/career.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8%;
+  color: white;
+  text-align: center;
+}
+.blAa {
+  font-weight: bold;
+  font-size: 74px;
+}
+.blAb {
+  padding: 4% 8%;
+  font-size: 35px;
+}
+@media only screen and (max-width: 800px) {
+  .blAa {
+    font-size: 32px;
+  }
+  .blAb {
+    font-size: 20px;
+  }
+}
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////// */
+.blH {
+  padding: 6%;
+  background-color: black;
+}
+.blHa {
+  font-size: 48px;
+  border-bottom: 3px solid #6b8163;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  color: white;
+}
+.blHe {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -25px;
+  margin-top: 50px;
+}
+.blHeA {
+  margin: 25px;
+  width: calc(100% / 3 - 50px);
+  text-decoration: none;
+  color: black;
+}
+.blHeAa {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  font-size: 28px;
+}
+.blHeAaA {
+  width: 58px;
+  min-width: 58px;
+  height: 58px;
+  margin-right: 20px;
+  background-image: url(../assets/background/bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.blHeAaB {
+  width: 100%;
+}
+.blHeAaC {
+  min-width: 180px;
+  text-align: right;
+}
+.blHeAb {
+  height: 20vw;
+  background-image: url(../assets/background/bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blHeAc {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 24px 0;
+}
+.blHeAd {
+  font-size: 18px;
+  font-style: italic;
+}
+@media only screen and (max-width: 800px) {
+  .blHa {
+    font-size: 22px;
+    border-bottom: 2px solid #6b8163;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .blHeA {
+    margin: 25px;
+    width: calc(100% - 50px);
+  }
+  .blHeAa {
+    font-size: 16px;
+  }
+  .blHeAaA {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .blHeAaC {
+    min-width: 100px;
+  }
+  .blHeAb {
+    height: 60vw;
+  }
+  .blHeAc {
+    font-size: 22px;
+    padding: 18px 0;
+  }
+  .blHeAd {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,300 @@
+/* individual */
+.nwA {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/network/individual.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+}
+/* ngo */
+.ngo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/network/ngo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* land owner */
+.land {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/network/land-owners.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* Impact Invest */
+.impact {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/network/impact-inv.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* Impact Invest */
+.business {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/network/business.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* environmental-accountants-networks */
+.business {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/network/accountant.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+}
+
+.nwAa {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.nwAaA {
+  font-size: 74px;
+  width: 600px;
+  min-width: 400px;
+  font-weight: bold;
+  text-align: right;
+  padding: 0 5%;
+}
+.nwAaB {
+  width: 100%;
+  max-width: 500px;
+  font-size: 24px;
+  padding: 0 2%;
+}
+@media only screen and (max-width: 800px) {
+  .nwAaA {
+    font-size: 32px;
+  }
+  .nwAaB {
+    font-size: 18px;
+    text-align: right;
+    padding: 1% 4%;
+  }
+}
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+.nwB {
+  padding: 10% 6%;
+  display: flex;
+}
+.nwBa {
+  text-align: right;
+  font-weight: bold;
+  font-size: 50px;
+  padding-right: 60px;
+  width: 30%;
+}
+.nwBb {
+  font-size: 24px;
+  width: 70%;
+}
+@media only screen and (max-width: 800px) {
+  .nwB {
+    flex-direction: column;
+  }
+  .nwBa {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 0;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .nwBb {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////// */
+.nwC {
+  padding: 10% 6%;
+  background-color: #e7e7e7;
+}
+.nwCa {
+  font-size: 68px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.nwCb {
+  font-size: 28px;
+  color: #313131;
+  padding-bottom: 80px;
+}
+.nwCc {
+  display: flex;
+  padding-bottom: 10px;
+}
+.nwCcA {
+  width: 50%;
+  margin-right: 20px;
+  background-color: #31313127;
+  padding: 70px 40px;
+  box-sizing: border-box;
+}
+.nwCcAa {
+  font-size: 90px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.nwCcAb {
+  font-size: 36px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid #808080;
+  margin-bottom: 20px;
+}
+.nwCcAc {
+  display: flex;
+}
+.nwCcAcA {
+  width: 50%;
+}
+.nwCcAcAa {
+  font-size: 80px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.nwCcAcAb {
+  font-size: 24px;
+}
+.nwCcB {
+  width: 50%;
+}
+.nwCcBa {
+  height: calc(100% - 92px);
+  background-image: url(../assets/background/bg9.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nwCcBb {
+  border: 2px solid #808080;
+  font-size: 28px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 16px;
+  font-weight: bold;
+}
+.nwCd {
+  font-weight: bold;
+  font-size: 18px;
+}
+@media only screen and (max-width: 800px) {
+  .nwCa {
+    font-size: 34px;
+    padding-bottom: 10px;
+  }
+  .nwCb {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+  .nwCc {
+    flex-direction: column;
+  }
+  .nwCcA {
+    width: 100%;
+    padding: 40px 30px;
+  }
+  .nwCcAa {
+    font-size: 45px;
+    padding-bottom: 5px;
+  }
+  .nwCcAb {
+    font-size: 18px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 10px;
+  }
+  .nwCcAcAa {
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+  .nwCcAcAb {
+    font-size: 16px;
+  }
+  .nwCcB {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .nwCcBa {
+    width: 100%;
+    height: 80vw;
+  }
+  .nwCcBb {
+    border: 1px solid #808080;
+    font-size: 18px;
+    padding: 14px;
+    margin-top: 12px;
+  }
+}
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////// */
+.nwD {
+  padding: 10% 6%;
+}
+.nwDa {
+  font-size: 68px;
+  font-weight: bold;
+  padding-bottom: 60px;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .nwDa {
+    font-size: 32px;
+    padding-bottom: 20px;
+  }
+}
