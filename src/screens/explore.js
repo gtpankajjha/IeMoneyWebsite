@@ -56,6 +56,14 @@ export default class Explore extends Component {
         <div className="text-overlay on_video_container">
             <a className="ex_logo" href="/" />
               <div><h1 className="on_video_text">Are you looking for better fundraising tool which<br/> empower Nonprofits and Philanthropists for a<br/> Greater Impact?</h1></div>
+            <a
+             href="https://investinearthday.org/watch"
+          target="_blank"
+          rel="noreferrer"
+          className="ex_buton"
+        >
+          Get IE Money
+        </a>
         </div>
           <div >
             <video autoPlay loop muted className="hmBa">
