@@ -109,9 +109,9 @@ export default function App() {
   // by default screen
   return<>{showModal && (
     
-      <div className="modal-overlay" onClick={closeOnOverlayClick}>
-<div className="modal">
-      <div className="modal-content" onClick={closeModalAndNavigate}>
+      <div className="modal-overlay launch_popup " onClick={closeOnOverlayClick}>
+<div className="modal popup">
+      <div className="modal-content popup-content" onClick={closeModalAndNavigate}>
        <img src={popup}/>
       </div>
       </div>

@@ -88,26 +88,42 @@ export function AppHeader() {
         <div className="hfAbA">
           Events
           <div className="hfAbAa">
-            <a href="/contest" className="hfAbAaA">
-              Green Impact Contest
+            <a href="/explore" className="hfAbAaA">
+              Book A Meeting
+            </a>
+            <a className="hfAbAaA" href="contest">
+              Upcoming Events
             </a>
             <a className="hfAbAaA" href="/blogs">
-              Blogs
+              Green Grant Contest 2023
             </a>
             <a className="hfAbAaA" href="/ieMoneyWorks">
-              How IE Money Works
+              Invest In The Earth 
             </a>
           </div>
         </div>
-
-        <a
-          href="https://investinearthday.org/apply/#tab1"
-          target="_blank"
-          rel="noreferrer"
-          className="hfAbA"
-        >
-          Philanthropic
-        </a>
+        
+        <div className="hfAbA">
+        Philanthropy
+          <div className="hfAbAa">
+            <a href="/explore" className="hfAbAaA">
+              NGOs
+            </a>
+            <a className="hfAbAaA" href="contest">
+              Donors
+            </a>
+            <a className="hfAbAaA" href="/blogs">
+              IE Money
+            </a>
+            <a className="hfAbAaA" href="/ieMoneyWorks">
+             Resources
+            </a>
+            <a className="hfAbAaA" href="/ieMoneyWorks">
+             Impact Stories
+            </a>
+          </div>
+        </div>
+   
         <a
           href="https://investinearthday.org/watch"
           target="_blank"
@@ -262,15 +278,12 @@ export function AppFooter({ state }) {
           </div>
           <div style={{color:'white',marginTop:"20px"}}>
              Powered by Impact Investments , Natural Capital<br/>
-               and Team Humanity Frisco, Colorado, USA</div>
+               and Team Humanity, Colorado, USA</div>
                <div style={{color:'white',marginTop:"20px"}}>
                Frisco, Colorado, USA<br/>
-              </div>
-      
+              </div> 
       </div>
-     
-         
-          <div>
+            <div>
             <div className="hfDbAb">
               <div className="hfDbAbA" onClick={() => navScreen("/")}>
                 Home

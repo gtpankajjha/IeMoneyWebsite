@@ -2,6 +2,7 @@ import React, { Component, StrictMode } from "react";
 import { AppHeader, AppFooter } from "../widgets/headerFooter";
 import "../styles/wi.css";
 import { Card1, Card2 } from "../widgets/cards";
+import WhyImpact from "../assets/whyimpact.png"
 
 const cardsData = [
   {
@@ -61,8 +62,10 @@ export default class WhyImpactEcosystem extends Component {
           FLOW OF PHILANTHROPIC FUNDING WORLDWIDE.
         </div>
         <div className="wiD">
-          <div className="wiDa">Our Ethos</div>
-          <div className="wiDb_">
+          <div className="wiDa">
+            <img src={WhyImpact}/>
+          </div>
+          {/* <div className="wiDb_">
             <div className="wiDb">
               <div className="wiDbA">
                 <div className="wiDbAa">Compassion</div>
@@ -96,22 +99,9 @@ export default class WhyImpactEcosystem extends Component {
                 holistic way.
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
-        {/* <div className="wiE">WHY IE MONEY</div>
-        <div className="wiF">
-          IE money is a Holistic Solution that includes Revenue Streams for
-          Ecosystem Service Stakeholders & Income for Natural Capital Owners
-          with
-        </div> */}
-        {/* <Card1 reverse data={cardsData[0]} /> */}
-        {/* <div className="wiC">
-          “CLIMATE CHANGE PRESENTS ENVIRONMENTAL, SOCIAL AND ECONOMIC CRISES ON
-          A WHOLE NEW LEVEL. FOR NEARLY TWO MILLENNIA HUMANS HAVE BEEN
-          CARBONIZING OUR PLANET AND WE NEED TO ACT TOGETHER TO DECARBONIZE IT.”
-        </div> */}
-        {/* <Card1 reverse data={cardsData[1]} /> */}
-        {/* <Card1 data={cardsData[2]} /> */}
+        
         <div className="wiC" style={{backgroundColor:'black'}}>
           CLIMATE CHANGE PRESENTS ENVIRONMENTAL, SOCIAL AND ECONOMIC CRISES ON A
           WHOLE NEW LEVEL. FOR NEARLY TWO MILLENNIA HUMANS HAVE BEEN CARBONIZING

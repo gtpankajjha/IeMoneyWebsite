@@ -81,21 +81,21 @@ export default class IeMoneyWorksScreen extends Component {
             </div>
             <div className="ieBaAa" />
             <div className="ieBaAb">DISTRIBUTION</div>
-            <div className="ieBaAc">STAKEHOLDERS</div>
-            <div className="ieBaAc">IMPACT INVESTORS</div>
-            <div className="ieBaAc">NATURAL ASSET OWNERS</div>
-            <div className="ieBaAc">NONPROFITS</div>
+            <div className="ie_text">STAKEHOLDERS</div>
+            <div className="ie_text">IMPACT INVESTORS</div>
+            <div className="ie_text">NATURAL ASSET OWNERS</div>
+            <div className="ie_text">NONPROFITS</div>
           </div>
           <div className="ieBaA">
             <div className="text-sm text-center" style={{color:'white'}}>
               An example of how your community currency could work.
             </div>
             <div className="ieBaAa_1" />
-            <div className="ieBaAb">CIRCULATION</div>
-            <div className="ieBaAc">PURCHASES</div>
-            <div className="ieBaAc">LOYALTY POINTS</div>
-            <div className="ieBaAc">REWARDS</div>
-            <div className="ieBaAc">NONPROFITS</div>
+            <div className="ieBaAb" >CIRCULATION</div>
+            <div className="ie_text" >PURCHASES</div>
+            <div className="ie_text">LOYALTY POINTS</div>
+            <div className="ie_text">REWARDS</div>
+            <div className="ie_text">NONPROFITS</div>
           </div>
           <div className="ieBaA">
             <div className="text-sm text-center" style={{color:'white'}}>
@@ -103,10 +103,10 @@ export default class IeMoneyWorksScreen extends Component {
             </div>
             <div className="ieBaAa_2" />
             <div className="ieBaAb">REDEEM</div>
-            <div className="ieBaAc">REDEEM TO USD</div>
-            <div className="ieBaAc">TRANSFER</div>
-            <div className="ieBaAc">MERCHANT PAYMENT</div>
-            <div className="ieBaAc">DONATE</div>
+            <div className="ie_text">REDEEM TO USD</div>
+            <div className="ie_text">TRANSFER</div>
+            <div className="ie_text">MERCHANT PAYMENT</div>
+            <div className="ie_text">DONATE</div>
           </div>
         </div>
 
@@ -160,7 +160,7 @@ export default class IeMoneyWorksScreen extends Component {
             <div className="hmHcA">4.</div>
             <div className="hmHcB">
               Merchants & Ecosystem Partners who accept your community currency
-              as payment can redeem it for government fiat currency like $USD OR
+              as payment can redeem it for government fiat currency like $USD or
               spend/transfer/gift/donate within your community.
             </div>
           </div>

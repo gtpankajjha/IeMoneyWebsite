@@ -74,9 +74,14 @@
 /* ////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////// */
 .wiD {
-  padding: 60px 5%;
-  background-color: #045D00;
+  /* padding: 60px 5%; */
+  /* background-color: #045D00; */
+  background-color: #333;
   color: white;
+}
+.wiD img{
+  height: 100%;
+  width: 100%;
 }
 .wiDa {
   font-size: 38px;

@@ -28,7 +28,7 @@ img, video {
   justify-content: center;
   /* background: rgba(0, 0, 0, 0.7); */
 }
-.modal {
+.popup {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -42,18 +42,18 @@ img, video {
   z-index: 9999;
 }
 
-.modal-content {
+.popup-content {
   position: relative;
 }
 
-.modal-content img {
+.popup-content img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensure the image covers the entire area */
   border-radius: 8px; /* Match the border radius of the modal */
 }
 
-.modal-overlay {
+.launch_popup {
   position: fixed;
   top: 0;
   left: 0;
@@ -65,10 +65,7 @@ img, video {
   justify-content: center;
   align-items: center;
 }
-body {
-  margin: 0;
-  padding: 0;
-}
+
 @keyframes animate {
   from {
     transform: scale(0.5);

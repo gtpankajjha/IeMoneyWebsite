@@ -52,8 +52,11 @@ export default class Explore extends Component {
       <div className="hmB">
       <div className="hmBa"></div>
         <br />
-        <div className="hmBb">
-       
+        <div className="hmBb_holder">
+        <div className="text-overlay on_video_container">
+            <a className="ex_logo" href="/" />
+              <div><h1 className="on_video_text">Are you looking for better fundraising tool which<br/> empower Nonprofits and Philanthropists for a<br/> Greater Impact?</h1></div>
+        </div>
           <div >
             <video autoPlay loop muted className="hmBa">
               <source src={bgVedio} type="video/mp4" />
@@ -139,10 +142,9 @@ Is your balance sheet promoting your<br/> philanthropic missions?</div>
           <div className="otHd" >How we can help you get it all?</div>
           <a href="https://calendly.com/abhishek-iemoney/30min">
           <div className="otHa" style={{color:'#09C700'}}>
-          TELL US AND GET $5000 DONATION
+          ATTEND A CALL TO LEARN MORE AND RECIEVE<br/> $5000 WORTH DONATIONS
           </div>
           </a>
-        
           <a
             className="otHe"
             href="/career"
