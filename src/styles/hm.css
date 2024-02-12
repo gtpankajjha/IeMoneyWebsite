@@ -236,10 +236,11 @@ video {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.backimage{
-  background-image:url(../assets/background/bg13.png); 
-  height: 297px;
-  width: 297px;
+.backimage {
+  background-image: url(../assets/AboutImpact.png);
+  background-size: cover; 
+  height: 227px;
+  width: 227px;
 }
 .hmCd {
   color: white;
