@@ -28,32 +28,46 @@ img, video {
   justify-content: center;
   /* background: rgba(0, 0, 0, 0.7); */
 }
-
-.container .modal {
-  z-index: 1;
-  width: 500px;
-  height: 500px;
-  background: rgb(234, 243, 236);
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
-  border-radius: 5px;
-  position: relative;
-  animation: animate 0.3s;
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  max-width: 700px;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  z-index: 9999;
 }
-.modal button {
-  position: absolute;
-  top: 7px;
-  right: 7px;
-  padding: 8px 11px;
-  background: #09a503;
-  color: white;
-  font-weight: bold;
-  border: none;
-  outline: none;
-  border-radius: 2px;
-  cursor: pointer;
-  margin: 18px;
+
+.modal-content {
+  position: relative;
+}
+
+.modal-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire area */
+  border-radius: 8px; /* Match the border radius of the modal */
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background-color:rgba(211,211,211,0.5); /* Semi-transparent black */
+  z-index: 9998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 @keyframes animate {
   from {

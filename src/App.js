@@ -21,8 +21,10 @@ import Career from "./screens/career";
 import CareerDetails from "./screens/careerDetails";
 import CareerForm from "./screens/careerForm";
 import Explore from "./screens/explore";
+import popup from "./assets/popup.png"
 
 export default function App() {
+  const [showModal, setShowModal] = useState(true);
   useEffect(() => {
     // ReactGA.pageview(window.location.pathname + window.location.search);
     ReactGA.send({
@@ -31,6 +33,18 @@ export default function App() {
       title: window.location.pathname,
     });
   }, []);
+
+  const closeModalAndNavigate = () => {
+    setShowModal(false);
+    // Navigate to the Explore component
+    window.location.href = "/explore";
+  };
+
+  const closeOnOverlayClick = (e) => {
+    if (e.target.classList.contains("modal-overlay")) {
+      setShowModal(false)
+    }
+  };
 
   // const currentPath = window.location.pathname.split("?")[0].split("/")[1];
   const currentPath = window.location.pathname.split("/")[1];
@@ -93,5 +107,16 @@ export default function App() {
   if (path === "explore") return <Explore navScreen={navScreen} />;
 
   // by default screen
-  return <HomeScreen navScreen={navScreen} />;
+  return<>{showModal && (
+    
+      <div className="modal-overlay" onClick={closeOnOverlayClick}>
+<div className="modal">
+      <div className="modal-content" onClick={closeModalAndNavigate}>
+       <img src={popup}/>
+      </div>
+      </div>
+      </div>
+    
+  )} <HomeScreen navScreen={navScreen} />
+  </> ;
 }

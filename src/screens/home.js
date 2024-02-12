@@ -62,9 +62,9 @@ export default class HomeScreen extends Component {
           <br />
           <div className="hmBb">
             <div className="hmBb_holder">
-              <div className="hmba-text"><span>About Us</span></div>
-              <div className="hmba-text">IE Money</div>
-              <div className="hmba-text">Book A Meeting</div>
+              <div className="hmba-text" href="/contactUs"><span>About Us</span></div>
+              <div className="hmba-text" href="/whyImpactEcosystem">IE Money</div>
+              <div className="hmba-text" href="https://calendly.com/abhishek-iemoney/30min">Book A Meeting</div>
             </div>
             {/* <div > */}
               <video autoPlay loop muted className="hmBab">
@@ -73,7 +73,7 @@ export default class HomeScreen extends Component {
               {/* </div> */}
             <div className="hmBb_holder">
               <div className="hmba-text-second">Philanthropy</div>
-              <div className="hmba-text-second">Events</div>
+              <div className="hmba-text-second" href="/contest">Events</div>
               <div className="hmba-text-second">why Impact Ecosystem</div>
             </div>
           </div>
@@ -572,7 +572,9 @@ function Container6() {
         }}>About Us</p>
         {/* Your content for the third grid cell */}
       </div>
+      <a href="contactUs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>
       <div style={{ gridRowStart: 2, gridRowEnd: 2, backgroundColor: '#6E8833', borderRadius: '10px', display: "flex", flexDirection: 'column', justifyContent: 'space-between', padding: '10px' }}>
+      
         <p style={{
           textAlign: 'left',
           font: 'normal normal 600 56px/68px',
@@ -587,6 +589,7 @@ function Container6() {
          opacity: 1
         }}>Contact Us</p>
       </div>
+    </a>
     </div>
   );
 }
