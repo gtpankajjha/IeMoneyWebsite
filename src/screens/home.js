@@ -290,7 +290,7 @@ function Container4() {
        </a>
         </div>
       </div>
-      <video autoPlay loop muted >
+      <video autoPlay loop muted  className="women_vid">
                 <source src={Woman} type="video/mp4" />
               </video> 
     </div>
@@ -516,7 +516,7 @@ function Container6() {
     myRef.current.scrollTo({ left, behavior: "smooth" });
   };
   return (
-    <div className="hmE" ref={myRef} style={{  display: 'grid', gap: '5PX',backgroundColor:'black' }}>
+    <div className="hmE hmeab" ref={myRef} >
       <div style={{ gridColumnStart: 1, gridColumnEnd: 3, gridRowStart: 1, gridRowEnd: 3, backgroundColor: '#C9E6C7', borderRadius: '10px', width: '100%' }}>
         <div style={{ width: '100%', display: 'flex', flexDirection: 'column', marginTop: '20%', paddingLeft: '10px' }}>
           <span style={{
