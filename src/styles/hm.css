@@ -46,6 +46,16 @@
   max-width: 800px; /* Set a maximum width for the video */
 
 }
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px -20px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  border-radius: 20px;
+  
+}
 .main-container {
 display: flex;
 justify-content: center;
@@ -141,6 +151,15 @@ video {
   text-align: left; 
  
 }
+.hmC {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5%;
+  margin-top: 100vh;
+  background-color: #010406;
+}
 
 .hmba-text-second {
   color: #FFFFFF;
@@ -220,8 +239,8 @@ video {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
     object-fit: cover;
     z-index: -1;
     background-color: black;
@@ -232,12 +251,17 @@ video {
     background: black;
     width: 150%;
   }
+  .hmBb_holder {
+    display: none;
+      /* Align the text in each column in the center */
+  }
   video {
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
     height: 370px;
   }
+
   .main-container {
     display: flex;
     justify-content: center;
@@ -267,13 +291,22 @@ video {
      width: 40%;
      height: 30%;
     }
+
+    .card-container {
+       
+      display: flex;
+       flex-direction: column;
+      justify-content: space-between;
+      border-radius: 20px;
+      
+    }
     
 .blue {
   background-color: #6E8833;
   padding: 40px;
   text-align: left;
   font-size: 30px;
-  width: 400px;
+  width: 360px;
 }
 
 .orange {
@@ -283,7 +316,7 @@ video {
   background-color: #010F11;
   padding: 40px;
   font-size: 16px;
-  width: 400px;
+  width: 360px;
 }
 .hmeab{
   display: grid;
@@ -294,7 +327,7 @@ video {
 }
   .hmC {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding: 5%;
@@ -320,15 +353,7 @@ video {
 /* //////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////// */
-.hmC {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 5%;
-  margin-top: 100vh;
-  background-color: #010406;
-}
+
 .hmCa {
   font-size: 38px;
   margin: 10px 0;
@@ -374,6 +399,7 @@ video {
   .hmCc {
     font-size: 18px;
     margin: 12px 0;
+    width: 100%;
   }
   .hmCd {
     font-size: 16px;
@@ -577,13 +603,7 @@ video {
   color: white;
   text-align: left;
 }
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  border-radius: 20px;
-  
-}
+
 
 .card {
   width: calc(25% - 20px); 

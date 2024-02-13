@@ -58,9 +58,8 @@ export default class HomeScreen extends Component {
     return (
       <StrictMode>
         <div className="hmB">
-        <div className="hmBa"></div>
-          <br />
-          <div className="hmBb">
+        <div className="hmBa">
+        <div className="hmBb">
             <div className="hmBb_holder">
               <a href="/whyImpactEcosystem"><div className="hmba-text" ><span>About Us</span></div></a>
               <a href="ieMoneyWorks"><div className="hmba-text" >IE Money</div></a>
@@ -77,6 +76,9 @@ export default class HomeScreen extends Component {
             <a href="whyImpactEcosystem"><div className="hmba-text-second">Why Impact Ecosystem</div></a> 
             </div>
           </div>
+        </div>
+          <br />
+         
           <a href="#footer">
           <div className="hmBc" />
           </a>
@@ -284,7 +286,7 @@ function Container4() {
     <div className="column-container">
         <div className="column-box blue">The Philanthropic<br/> Currency</div>
         <div className="column-box orange">
-          <div style={{width:'400px',fontSize:'20px'}}>LEARN MORE AND RECIEVE $5000<br/> WORTH DONATIONS</div>
+          <div  className="learn_more">LEARN MORE AND RECIEVE $5000<br/> WORTH DONATIONS</div>
        <a href="explore">
        <div style={{color:'white',width:'250px',border:'2px solid #6E8833',borderRadius:'30px',textAlign:'center',padding:'10px',marginTop:'20px'}}>EXPLORE</div>
        </a>
