@@ -115,7 +115,7 @@ export default class HomeScreen extends Component {
         </div>
         {/* <Container3 /> */}
         <Container4 />
-        {/* <Container6 /> */}
+        <Container6 />
         <Container5 state={state} />
         <AppFooter state={state}  id="footer"/>
         {/* <AppHeader state={state} /> */}
