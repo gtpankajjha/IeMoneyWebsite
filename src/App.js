@@ -21,7 +21,8 @@ import Career from "./screens/career";
 import CareerDetails from "./screens/careerDetails";
 import CareerForm from "./screens/careerForm";
 import Explore from "./screens/explore";
-import popup from "./assets/popup.png"
+import popup from "./assets/Modal_img.png"
+import cancel_icon from "./assets/cancel_icon.png"
 
 export default function App() {
   const [showModal, setShowModal] = useState(true);
@@ -44,6 +45,12 @@ export default function App() {
     if (e.target.classList.contains("modal-overlay")) {
       setShowModal(false)
     }
+  };
+
+  const closeOnClick = (e) => {
+    
+      setShowModal(false)
+    
   };
 
   // const currentPath = window.location.pathname.split("?")[0].split("/")[1];
@@ -112,6 +119,7 @@ export default function App() {
       <div className="modal-overlay launch_popup " onClick={closeOnOverlayClick}>
 <div className="modal popup">
       <div className="modal-content popup-content" onClick={closeModalAndNavigate}>
+      {/* <img src={cancel_icon} style={{height:'30px',width:'30px'}} onClick={closeOnClick}/> */}
        <img src={popup}/>
       </div>
       </div>

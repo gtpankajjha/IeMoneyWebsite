@@ -28,6 +28,14 @@ export default class HomeScreen extends Component {
       isVideoLoaded: false,
       showAppFooter: false,
     };
+    this.handleNewtorkClick = this.handleNewtorkClick.bind(this);
+  }
+
+  handleNewtorkClick() {
+    const attendElement = document.getElementById("community");
+    if (attendElement) {
+      attendElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 
   handleScroll = () => {
@@ -62,7 +70,7 @@ export default class HomeScreen extends Component {
         <div className="hmBb">
             <div className="hmBb_holder">
               <a href="/whyImpactEcosystem"><div className="hmba-text" ><span>About Us</span></div></a>
-              <a href="explore"><div className="hmba-text" >Community</div></a>
+              <a   onClick={this.handleNewtorkClick}><div className="hmba-text" >Community</div></a>
               <a href="explore"><div className="hmba-text" >Book A Meeting</div></a>
             </div>
             {/* <div > */}
@@ -418,7 +426,7 @@ function Container5({ state }) {
       {/* /////////////////////////////////////////////////////////////// */}
       {/* /////////////////////////////////////////////////////////////// */}
       {/* <div className="hmHa">OUR NETWORK</div> */}
-      <div className="hmHd" id="network">
+      <div className="hmHd" id="community" >
         {/* <div className="hmHdA c20" onClick={() => navScreen("/networks")}> */}
         <a href="/individuals-networks" className="hmHdA c20">
           {/* <div className="hmHdA c20"> */}

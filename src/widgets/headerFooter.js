@@ -42,9 +42,9 @@ export function AppHeader() {
             >
               Careers
             </a> */}
-            <div className="hfAbAaA" href="/">
+            {/* <div className="hfAbAaA" href="/">
               Community
-            </div>
+            </div> */}
             <a href="/contactUs" className="hfAbAaA">
               Contact Us
             </a>
@@ -97,8 +97,8 @@ export function AppHeader() {
             <a className="hfAbAaA" href="/contest">
               Green Grant Contest 2023
             </a>
-            <a className="hfAbAaA" href="/ieMoneyWorks">
-              Invest In The Earth 
+            <a className="hfAbAaA" href="https://investinearthday.org/">
+              Invest In Earth Day 
             </a>
           </div>
         </div>
@@ -115,19 +115,19 @@ export function AppHeader() {
             <a className="hfAbAaA" href="/ieMoneyWorks">
               IE Money
             </a>
-            <a className="hfAbAaA" href="/ieMoneyWorks">
+            <a className="hfAbAaA" href="/blogs">
              Resources
             </a>
-            <a className="hfAbAaA" href="/ieMoneyWorks">
+            {/* <a className="hfAbAaA" href="/ieMoneyWorks">
              Impact Stories
-            </a>
+            </a> */}
           </div>
         </div>
    
         <a
-          href="https://investinearthday.org/watch"
-          target="_blank"
-          rel="noreferrer"
+          href="explore"
+          // target="_blank"
+          // rel="noreferrer"
           className="hfAbB"
         >
           Get IE Money
@@ -285,19 +285,21 @@ export function AppFooter({ state }) {
       </div>
             <div>
             <div className="hfDbAb">
-              <div className="hfDbAbA" onClick={() => navScreen("/")}>
+              {/* <div className="hfDbAbA" onClick={() => navScreen("/")}>
                 Home
-              </div>
+              </div> */}
               <div className="hfDbAbB">&nbsp;</div>
               {/* <div className="hfDbAbC">FAQ's</div> */}
             </div>
             <div className="hfDbAb">
-              <div className="hfDbAbA">Contact</div>
+            <div className="hfDbAbA" onClick={() => navScreen("/")}>Home</div>
+              <div className="hfDbAbB">Contact</div>
               {/* <div className="hfDbAbB">Risk Disclosure & Disclaimer</div> */}
               {/* <div className="hfDbAbC">Terms of use</div> */}
+             
             </div>
             <div className="hfDbAb">
-             <a href="explore"><div className="hfDbAbA">IE money</div></a> 
+             <a href="/whyImpactEcosystem"><div className="hfDbAbA">About Us</div></a> 
               <div className="hfDbAbB">Resources</div>
               <div className="hfDbAbC">Privacy policy</div>
             </div>

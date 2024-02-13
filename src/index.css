@@ -145,6 +145,7 @@ code {
 
 .popup-content {
   position: relative;
+  flex-direction: row;
 }
 
 .popup-content img {

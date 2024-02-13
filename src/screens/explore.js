@@ -58,9 +58,9 @@ export default class Explore extends Component {
     return (
       <StrictMode>
       <div className="hmB">
-      <div className="hmBa"></div>
+      <div className="exBa"></div>
         <br />
-        <div className="hmBb_holder">
+        <div className="exe_holder">
         <div className="text-overlay on_video_container">
             <a className="ex_logo" href="/" />
               <div><h1 className="on_video_text">Are you looking for better fundraising tool which<br/> empower Nonprofits and Philanthropists for a<br/> Greater Impact?</h1></div>
@@ -68,14 +68,14 @@ export default class Explore extends Component {
             
           target="_blank"
           rel="noreferrer"
-          className="ex_buton"
+          className="ex_button"
           onClick={this.handleBookMeetingClick}
         >
           Book a meeting
         </a>
         </div>
           <div >
-            <video autoPlay loop muted className="hmBa">
+            <video autoPlay loop muted className="ex_video">
               <source src={bgVedio} type="video/mp4" />
             </video>
             </div>
@@ -90,10 +90,10 @@ export default class Explore extends Component {
       
       {/* //////////////////////////////////////////////////////////////// */}
       <div className="ie-flex">
-       <div style={{color:'white',fontSize:'42px'}}>Amplifying Donations with Appreciated Assets</div>
+       <div className="ex_header">Amplifying Donations with Appreciated Assets</div>
        {/* need space in between this text and image */}
-       <div style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'3%',width:'80%',justifyContent:'space-around'}}>
-       <div style={{color:'white',flex:2,marginTop:'5%'}}>
+       <div className="ex_text_holder">
+       <div className="ex_title">
         At Impact ecosystem, we believe in turning assets into impact.<br/>
          Accept appreciated assets, such as stocks and<br/> cryptocurrencies,
           and unlock a new realm of generosity.<br/> 
@@ -105,17 +105,17 @@ export default class Explore extends Component {
         </div>
        </div>
        
-<div style={{color:'#437B40',fontSize:'32px',textAlign:'center',marginTop:'3%'}}>
+<div className="ex_summary">
   Are you allowing your donors to minimise tax deductions<br/> 
   and maximise impact?</div>     
       </div>
       {/* <Container2 /> */}
      
       <div className="ie-container">
-       <div style={{color:'white',fontSize:'42px'}}>Sustain Impact with Recurring Donations</div>
+       <div className="ex_header">Sustain Impact with Recurring Donations</div>
        {/* need space in between this text and image */}
-       <div style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'3%',width:'80%',justifyContent:'space-around'}}>
-       <div style={{color:'white',flex:2,marginTop:'5%'}}>
+       <div className="ex_text_holder">
+       <div className="ex_title">
        Discover the power of continuous support. We enable<br/>
        automatic and recurring donations that provide stability for your<br/>organization.<br/><br/>
        Cultivate lasting relationships with donors who are committed to<br/> 
@@ -127,7 +127,7 @@ export default class Explore extends Component {
         </div>
        </div>
        
-<div style={{color:'#437B40',fontSize:'32px',textAlign:'center',marginTop:'3%'}}>
+<div className="ex_summary">
   Do you want automatic recurring donations?</div>     
       </div>      
     
@@ -135,10 +135,10 @@ export default class Explore extends Component {
       {/* container 3 */}
 
       <div className="ie-container">
-       <div style={{color:'white',fontSize:'42px',textAlign:'center'}}>Strategic Use of Balance Sheet for<br/> Mission Advancement</div>
+       <div className="ex_header">Strategic Use of Balance Sheet for<br/> Mission Advancement</div>
        {/* need space in between this text and image */}
-       <div style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'3%',width:'80%',justifyContent:'space-around'}}>
-       <div style={{color:'white',flex:2,marginTop:'5%'}}>
+       <div className="ex_text_holder">
+       <div className="ex_title">
        Optimize your organization’s balance sheet for greater mission<br/>
        ulfillment. Donor Coin empowers you to leverage investable<br/> assets strategically, aligning financial strength with the<br/> 
        advancement of your mission. <br/><br/> 
@@ -149,7 +149,7 @@ export default class Explore extends Component {
         </div>
        </div>
        
-<div style={{color:'#437B40',fontSize:'32px',textAlign:'center',marginTop:'3%'}}>
+<div className="ex_summary">
 Are your investible assets promoting your<br/> philanthropic missions?</div>     
       </div>
 
@@ -158,7 +158,8 @@ Are your investible assets promoting your<br/> philanthropic missions?</div>
           <div>
           <a href="https://calendly.com/abhishek-iemoney/30min" >
           <div className="otHa" style={{color:'#09C700'}}>
-          ATTEND A CALL TO LEARN MORE AND RECIEVE<br/> $5000 WORTH DONATIONS
+          ATTEND A CALL TO LEARN MORE AND RECIEVE<br/> $5000 WORTH DONATIONS FOR YOUR NGO<br/>
+          
           </div>
           </a>
           <a
@@ -171,7 +172,7 @@ Are your investible assets promoting your<br/> philanthropic missions?</div>
               )
             }
           >
-           Schedule a call on Calandly <img src={arrow}/>
+           Schedule a call with us <img src={arrow}/>
           </a>
           </div>
         </div>
