@@ -293,14 +293,14 @@ export function AppFooter({ state }) {
             </div>
             <div className="hfDbAb">
             <div className="hfDbAbA" onClick={() => navScreen("/")}>Home</div>
-              <div className="hfDbAbB">Contact</div>
+              <div className="hfDbAbB" onClick={() => navScreen("/contactUs")} >Contact</div>
               {/* <div className="hfDbAbB">Risk Disclosure & Disclaimer</div> */}
               {/* <div className="hfDbAbC">Terms of use</div> */}
              
             </div>
             <div className="hfDbAb">
              <a href="/whyImpactEcosystem"><div className="hfDbAbA">About Us</div></a> 
-              <div className="hfDbAbB">Resources</div>
+              <div className="hfDbAbB" onClick={() => navScreen("/blogs")}>Resources</div>
               <div className="hfDbAbC">Privacy policy</div>
             </div>
           </div>
