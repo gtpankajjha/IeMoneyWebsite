@@ -7,6 +7,7 @@
   z-index: -1;
   display: flex;
   flex-direction: column;
+  background-color: black;
   justify-content: space-between;
   align-items: center;
 }
@@ -158,7 +159,7 @@ video {
   justify-content: space-around;
   padding: 5%;
   margin-top: 100vh;
-  background-color: #010406;
+  background-color: black;
 }
 
 .hmba-text-second {
@@ -198,6 +199,12 @@ video {
   align-items: center;
   justify-content: center;
  
+}
+.backimage {
+  background-image: url(../assets/AboutImpact.png);
+  background-size: cover; 
+  height: 227px;
+  width: 227px;
 }
 .hmBb_holder {
   display: flex;
@@ -259,7 +266,8 @@ video {
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
-    height: 370px;
+    height: 500px;
+    width: 360px;
   }
 
   .main-container {
@@ -267,8 +275,9 @@ video {
     justify-content: center;
     align-items: center;
     background-image:url(../assets/background/bg10.png); 
-    height: 100vh;
-    width: 150%;
+    height: 75vh;
+    width: 15%;
+    margin-top: 40%;
     }
     .hmE {
       background-color: #d3d3d3;
@@ -283,7 +292,7 @@ video {
   
     .main-box {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       align-self: center;
       /* background-color: green; */
@@ -324,16 +333,23 @@ video {
    background-color: black;
    width: 150%;
    height: 100%;
+   margin-top: 30%;
 }
   .hmC {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 5%;
-    margin-top: 100vh;
-    width: 150%;
+    margin-top: 50vh;
+    width: 100%;
     background-color: #010406;
+  }
+  .backimage {
+    background-image: url(../assets/AboutImpact.png);
+    background-size: cover; 
+    height: 121px;
+    width: 179px;
   }
 }
 
@@ -343,6 +359,7 @@ video {
     color: white;
     font-weight: 300;
     margin-top: 50px;
+    height: 50vh;
   }
   .hmBab {
     max-width: 100%; /* Adjust the max-width for smaller screens */
@@ -370,12 +387,7 @@ video {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.backimage {
-  background-image: url(../assets/AboutImpact.png);
-  background-size: cover; 
-  height: 227px;
-  width: 227px;
-}
+
 .hmCd {
   color: white;
   font-weight: 300;
