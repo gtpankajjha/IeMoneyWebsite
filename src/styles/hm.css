@@ -57,6 +57,20 @@
   border-radius: 20px;
   
 }
+.hmHab {
+  font-size: 24px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  color: white;
+  text-align: left;
+}
+.hmHaba {
+  font-size: 34px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  color: white;
+  text-align: center;
+}
 .main-container {
 display: flex;
 justify-content: center;
@@ -123,6 +137,45 @@ width: 100%;
   width: 500px;
   
   padding: 0px;
+}
+.card {
+  width: calc(25% - 20px); 
+   margin-bottom: 20px;
+   margin-left: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+ 
+
+ 
+}
+
+.card-background {
+  position: relative;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+ 
+}
+
+.card-image {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px; /* Adjust as needed */
+
+}
+
+.card-content {
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.card-summary-text {
+  font-size: 16px;
+  padding: 20px;
+  font-weight: 400;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 video {
   object-fit: contain;
@@ -221,6 +274,7 @@ video {
   margin-bottom: 20px;
 }
 
+
 .bounce {
   animation: bounce 2s infinite;
 }
@@ -274,9 +328,10 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url(../assets/background/bg10.png); 
+    background-color: black;
     height: 75vh;
-    width: 15%;
+    width: 0%;
+    margin-left: 6%;
     margin-top: 40%;
     }
     .hmE {
@@ -287,6 +342,15 @@ video {
       height: 100%;
       display: flex;
       overflow-y: scroll;
+    }
+
+    .hmHab {
+      font-size: 19px;
+      padding-bottom: 30px;
+      width: 65%;
+      padding-top: 0px;
+      color: white;
+      text-align: left;
     }
 
   
@@ -309,6 +373,24 @@ video {
       border-radius: 20px;
       
     }
+
+    .card-background {
+      position: relative;
+      width: 300%;
+      height: 350px;
+      background-size: cover;
+      background-position: center;
+     
+    }
+    .hmHaba {
+      font-size: 34px;
+      padding-bottom: 30px;
+      padding-top: 0px;
+      color: white;
+      text-align: left;
+    }
+    
+   
     
 .blue {
   background-color: #6E8833;
@@ -617,56 +699,9 @@ video {
 }
 
 
-.card {
-  width: calc(25% - 20px); 
-   margin-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
 
- 
-}
 
-.card-background {
-  position: relative;
-  height: 350px;
-  background-size: cover;
-  background-position: center;
- 
-}
 
-.card-image {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 30px; /* Adjust as needed */
-}
-
-.card-content {
-  padding: 20px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.card-summary-text {
-  font-size: 16px;
-  padding: 20px;
-  font-weight: 400;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.hmHab {
-  font-size: 24px;
-  padding-bottom: 30px;
-  padding-top: 0px;
-  color: white;
-  text-align: left;
-}
-.hmHaba {
-  font-size: 34px;
-  padding-bottom: 30px;
-  padding-top: 0px;
-  color: white;
-  text-align: center;
-}
 .hmHc {
   display: flex;
   margin: 40px 0;
@@ -849,7 +884,7 @@ video {
   }
   .hmHdA {
     margin: 20px;
-    width: 100%;
+    width: 60%;
     height: 90vw;
   }
   .hmHdAa {
