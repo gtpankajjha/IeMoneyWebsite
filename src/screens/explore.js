@@ -8,6 +8,7 @@ import bgVedio from "../assets/Video/pexels_videos.mp4";
 import yourImage from "../assets/Prancheta.png"
 import group from "../assets/group.png"
 import office from "../assets/office.png"
+import arrow from "../assets/arrow.png"
 
 const cardsData = [
   {
@@ -43,6 +44,13 @@ export default class Explore extends Component {
       ////////////////// SCREEN FUNCTION /////////////////////
       navScreen: props.navScreen,
     };
+    this.handleBookMeetingClick = this.handleBookMeetingClick.bind(this);
+  }
+  handleBookMeetingClick() {
+    const attendElement = document.getElementById("attend");
+    if (attendElement) {
+      attendElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 
   render() {
@@ -57,12 +65,13 @@ export default class Explore extends Component {
             <a className="ex_logo" href="/" />
               <div><h1 className="on_video_text">Are you looking for better fundraising tool which<br/> empower Nonprofits and Philanthropists for a<br/> Greater Impact?</h1></div>
             <a
-             href="https://investinearthday.org/watch"
+            
           target="_blank"
           rel="noreferrer"
           className="ex_buton"
+          onClick={this.handleBookMeetingClick}
         >
-          Get IE Money
+          Book a meeting
         </a>
         </div>
           <div >
@@ -103,15 +112,15 @@ export default class Explore extends Component {
       {/* <Container2 /> */}
      
       <div className="ie-container">
-       <div style={{color:'white',fontSize:'42px'}}>Amplifying Donations with Appreciated Assets</div>
+       <div style={{color:'white',fontSize:'42px'}}>Sustain Impact with Recurring Donations</div>
        {/* need space in between this text and image */}
        <div style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'3%',width:'80%',justifyContent:'space-around'}}>
        <div style={{color:'white',flex:2,marginTop:'5%'}}>
-        At Impact ecosystem, we believe in turning assets into impact.<br/>
-         Accept appreciated assets, such as stocks and<br/> cryptocurrencies,
-          and unlock a new realm of generosity.<br/> 
-          Your donors can contribute in ways that resonate with them<br/> 
-          while elevating the reach of your cause.
+       Discover the power of continuous support. We enable<br/>
+       automatic and recurring donations that provide stability for your<br/>organization.<br/><br/>
+       Cultivate lasting relationships with donors who are committed to<br/> 
+       your cause, ensuring sustained impact over time<br/> 
+         
         </div>
         <div style={{flex:1,marginTop:'3%'}} >
         <img src={group} alt="Your Alt Text" />
@@ -119,23 +128,21 @@ export default class Explore extends Component {
        </div>
        
 <div style={{color:'#437B40',fontSize:'32px',textAlign:'center',marginTop:'3%'}}>
-  Are you allowing your donors to minimise tax deductions<br/> 
-  and maximise impact?</div>     
+  Do you want automatic recurring donations?</div>     
       </div>      
     
 
       {/* container 3 */}
 
       <div className="ie-container">
-       <div style={{color:'white',fontSize:'42px'}}>Amplifying Donations with Appreciated Assets</div>
+       <div style={{color:'white',fontSize:'42px',textAlign:'center'}}>Strategic Use of Balance Sheet for<br/> Mission Advancement</div>
        {/* need space in between this text and image */}
        <div style={{display:'flex',flexDirection:'row',alignItems:'center',marginTop:'3%',width:'80%',justifyContent:'space-around'}}>
        <div style={{color:'white',flex:2,marginTop:'5%'}}>
-        At Impact ecosystem, we believe in turning assets into impact.<br/>
-         Accept appreciated assets, such as stocks and<br/> cryptocurrencies,
-          and unlock a new realm of generosity.<br/> 
-          Your donors can contribute in ways that resonate with them<br/> 
-          while elevating the reach of your cause.
+       Optimize your organization’s balance sheet for greater mission<br/>
+       ulfillment. Donor Coin empowers you to leverage investable<br/> assets strategically, aligning financial strength with the<br/> 
+       advancement of your mission. <br/><br/> 
+       Explore innovative avenues to fund your cause without <br/>compromising financial stability.
         </div>
         <div style={{flex:1,marginTop:'3%'}} >
         <img src={office} alt="Your Alt Text" />
@@ -143,12 +150,13 @@ export default class Explore extends Component {
        </div>
        
 <div style={{color:'#437B40',fontSize:'32px',textAlign:'center',marginTop:'3%'}}>
-Is your balance sheet promoting your<br/> philanthropic missions?</div>     
+Are your investible assets promoting your<br/> philanthropic missions?</div>     
       </div>
 
       <div className="otH">
-          <div className="otHd" >How we can help you get it all?</div>
-          <a href="https://calendly.com/abhishek-iemoney/30min">
+          <div className="otHd" id="attend">How we can help you get it all?</div>
+          <div>
+          <a href="https://calendly.com/abhishek-iemoney/30min" >
           <div className="otHa" style={{color:'#09C700'}}>
           ATTEND A CALL TO LEARN MORE AND RECIEVE<br/> $5000 WORTH DONATIONS
           </div>
@@ -163,8 +171,9 @@ Is your balance sheet promoting your<br/> philanthropic missions?</div>
               )
             }
           >
-           Schedule a call on Calandly
+           Schedule a call on Calandly <img src={arrow}/>
           </a>
+          </div>
         </div>
       
       <AppFooter state={state} />

@@ -62,7 +62,7 @@ export default class HomeScreen extends Component {
         <div className="hmBb">
             <div className="hmBb_holder">
               <a href="/whyImpactEcosystem"><div className="hmba-text" ><span>About Us</span></div></a>
-              <a href="ieMoneyWorks"><div className="hmba-text" >IE Money</div></a>
+              <a href="explore"><div className="hmba-text" >Community</div></a>
               <a href="explore"><div className="hmba-text" >Book A Meeting</div></a>
             </div>
             {/* <div > */}
@@ -71,7 +71,7 @@ export default class HomeScreen extends Component {
               </video>
               {/* </div> */}
             <div className="hmBb_holder">
-            <a href="contest"><div className="hmba-text-second">Philanthropy</div></a>
+            <a href="explore"><div className="hmba-text-second">Philanthropy</div></a>
             <a href="contest"> <div className="hmba-text-second" href="/contest">Events</div></a>
             <a href="whyImpactEcosystem"><div className="hmba-text-second">Why Impact Ecosystem</div></a> 
             </div>
@@ -107,7 +107,7 @@ export default class HomeScreen extends Component {
         </div>
         {/* <Container3 /> */}
         <Container4 />
-        <Container6 />
+        {/* <Container6 /> */}
         <Container5 state={state} />
         <AppFooter state={state}  id="footer"/>
         {/* <AppHeader state={state} /> */}
@@ -418,7 +418,7 @@ function Container5({ state }) {
       {/* /////////////////////////////////////////////////////////////// */}
       {/* /////////////////////////////////////////////////////////////// */}
       {/* <div className="hmHa">OUR NETWORK</div> */}
-      <div className="hmHd">
+      <div className="hmHd" id="network">
         {/* <div className="hmHdA c20" onClick={() => navScreen("/networks")}> */}
         <a href="/individuals-networks" className="hmHdA c20">
           {/* <div className="hmHdA c20"> */}
@@ -532,10 +532,10 @@ function Container6() {
             <img src={star_icon} className="rotate-image" style={{height:'60px',width:'60px'}}/>
           </span>
           <p style={{fontSize:'26px',fontWeight:'bold'}}>What inspires us?</p>
-          <p style={{fontSize:'16px',}}>Lorem ipsum dolor sit amet, consectetuer<br />
-            adipiscing elit,sed diam nonummy nibh <br />
-            euismod tincidunt ut laoreet dolore magna<br />
-            aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+          <p style={{fontSize:'16px',}}>Our mission is to champion the creation of fair,<br/>
+           regenerative, and resilient local and global<br/> communities that prioritize human well-being.
+            
+            </p>
         </div>
       </div>
       <a href="blogs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>

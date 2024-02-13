@@ -94,7 +94,7 @@ export function AppHeader() {
             <a className="hfAbAaA" href="contest">
               Upcoming Events
             </a>
-            <a className="hfAbAaA" href="/blogs">
+            <a className="hfAbAaA" href="/contest">
               Green Grant Contest 2023
             </a>
             <a className="hfAbAaA" href="/ieMoneyWorks">
@@ -109,10 +109,10 @@ export function AppHeader() {
             <a href="/explore" className="hfAbAaA">
               NGOs
             </a>
-            <a className="hfAbAaA" href="contest">
+            <a className="hfAbAaA" href="explore">
               Donors
             </a>
-            <a className="hfAbAaA" href="/blogs">
+            <a className="hfAbAaA" href="/ieMoneyWorks">
               IE Money
             </a>
             <a className="hfAbAaA" href="/ieMoneyWorks">
@@ -278,7 +278,7 @@ export function AppFooter({ state }) {
           </div>
           <div style={{color:'white',marginTop:"20px"}}>
              Powered by Impact Investments , Natural Capital<br/>
-               and Team Humanity, Colorado, USA</div>
+               and Team Humanity</div>
                <div style={{color:'white',marginTop:"20px"}}>
                Frisco, Colorado, USA<br/>
               </div> 
@@ -289,15 +289,15 @@ export function AppFooter({ state }) {
                 Home
               </div>
               <div className="hfDbAbB">&nbsp;</div>
-              <div className="hfDbAbC">FAQ's</div>
+              {/* <div className="hfDbAbC">FAQ's</div> */}
             </div>
             <div className="hfDbAb">
-              <div className="hfDbAbA">About Us</div>
-              <div className="hfDbAbB">Risk Disclosure & Disclaimer</div>
-              <div className="hfDbAbC">Terms of use</div>
+              <div className="hfDbAbA">Contact</div>
+              {/* <div className="hfDbAbB">Risk Disclosure & Disclaimer</div> */}
+              {/* <div className="hfDbAbC">Terms of use</div> */}
             </div>
             <div className="hfDbAb">
-              <div className="hfDbAbA">IE money</div>
+             <a href="explore"><div className="hfDbAbA">IE money</div></a> 
               <div className="hfDbAbB">Resources</div>
               <div className="hfDbAbC">Privacy policy</div>
             </div>
