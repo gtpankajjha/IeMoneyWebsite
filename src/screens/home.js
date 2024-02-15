@@ -66,29 +66,29 @@ export default class HomeScreen extends Component {
     return (
       <StrictMode>
         <div className="hmB">
-        <div className="hmBa">
-        <div className="hmBb">
-            <div className="hmBb_holder">
-              <a href="/whyImpactEcosystem"><div className="hmba-text" ><span>About Us</span></div></a>
-              <a   onClick={this.handleNewtorkClick}><div className="hmba-text" >Community</div></a>
-              <a href="explore"><div className="hmba-text" >Book A Meeting</div></a>
-            </div>
-            {/* <div > */}
+          <div className="hmBa">
+            <div className="hmBb">
+              <div className="hmBb_holder">
+                <a href="/whyImpactEcosystem"><div className="hmba-text" ><span>About Us</span></div></a>
+                <a onClick={this.handleNewtorkClick}><div className="hmba-text" >Community</div></a>
+                <a href="explore"><div className="hmba-text" >Book A Meeting</div></a>
+              </div>
+              {/* <div > */}
               <video autoPlay loop muted className="hmBab">
                 <source src={FINAL_1} type="video/mp4" />
               </video>
               {/* </div> */}
-            <div className="hmBb_holder">
-            <a href="explore"><div className="hmba-text-second">Philanthropy</div></a>
-            <a href="contest"> <div className="hmba-text-second" href="/contest">Events</div></a>
-            <a href="whyImpactEcosystem"><div className="hmba-text-second">Why Impact Ecosystem</div></a> 
+              <div className="hmBb_holder">
+                <a href="explore"><div className="hmba-text-second">Philanthropy</div></a>
+                <a href="contest"> <div className="hmba-text-second" href="/contest">Events</div></a>
+                <a href="whyImpactEcosystem"><div className="hmba-text-second">Why Impact Ecosystem</div></a>
+              </div>
             </div>
           </div>
-        </div>
           <br />
-         
+
           <a href="#footer">
-          <div className="hmBc" />
+            <div className="hmBc" />
           </a>
           {/* <a href="#iemoney">
             <BsFillArrowDownCircleFill className="hmBc bounce" />
@@ -101,7 +101,7 @@ export default class HomeScreen extends Component {
           {/* <div className="hmCa">Introducing</div>
           <div className="hmCb">IE.Money</div> */}
           <div className="hmCc">
-          {`A Holistic Solution Including Non-Profit
+            {`A Holistic Solution Including Non-Profit
           Grants,Community Currency, Regenerative 
           Product Discounts, And Rewards For 
           Ecosystem Services & Impact Investments`}
@@ -117,7 +117,7 @@ export default class HomeScreen extends Component {
         <Container4 />
         <Container6 />
         <Container5 state={state} />
-        <AppFooter state={state}  id="footer"/>
+        <AppFooter state={state} id="footer" />
         {/* <AppHeader state={state} /> */}
       </StrictMode>
     );
@@ -290,21 +290,21 @@ function Container3() {
 function Container4() {
   return (
     <div className="main-container" >
-    <div className="main-box">
-    <div className="column-container">
-        <div className="column-box blue">The Philanthropic<br/> Currency</div>
-        <div className="column-box orange">
-          <div  className="learn_more">LEARN MORE AND RECIEVE $5000<br/> WORTH DONATIONS</div>
-       <a href="explore">
-       <div style={{color:'white',width:'250px',border:'2px solid #6E8833',borderRadius:'30px',textAlign:'center',padding:'10px',marginTop:'20px'}}>EXPLORE</div>
-       </a>
+      <div className="main-box">
+        <div className="column-container">
+          <div className="column-box blue">The Philanthropic<br /> Currency</div>
+          <div className="column-box orange">
+            <div className="learn_more">LEARN MORE AND RECIEVE $5000<br /> WORTH DONATIONS</div>
+            <a href="explore">
+              <div style={{ color: 'white', width: '250px', border: '2px solid #6E8833', borderRadius: '30px', textAlign: 'center', padding: '10px', marginTop: '20px' }}>EXPLORE</div>
+            </a>
+          </div>
         </div>
+        <video autoPlay loop muted className="women_vid">
+          <source src={Woman} type="video/mp4" />
+        </video>
       </div>
-      <video autoPlay loop muted  className="women_vid">
-                <source src={Woman} type="video/mp4" />
-              </video> 
     </div>
-  </div>
   );
 }
 
@@ -319,21 +319,21 @@ function Container5({ state }) {
     },
     {
       id: 2,
-      backgroundImage:ethos2,
+      backgroundImage: ethos2,
       heading: "Integrity",
       summary: "The second core value of charity donation projects is integrity, which refers to the adherence to a set of moral and ethical principles. This includes being honest, transparent, and accountable for the funds raised and how they are used to make our planet and people better.",
       image: etho_icon2,
     },
     {
       id: 3,
-      backgroundImage:ethos3,
+      backgroundImage: ethos3,
       heading: "Collaboration",
       summary: "Collaboration refers to working together with other organizations, community members, and stakeholders to achieve shared goals. This involves building strong relationships and partnerships, leveraging resources, and coordinating efforts to maximize the impact of the charity's work.",
       image: etho_icon3,
     },
     {
       id: 4,
-      backgroundImage:ethos4,
+      backgroundImage: ethos4,
       heading: "Impact",
       summary: "As our organization's name suggests, Impact involves creating tangible, measurable outcomes that positively affect the lives of those in need. This requires careful planning, implementation, and evaluation of the programs and projects supported by the charity.",
       image: etho_icon4,
@@ -346,39 +346,39 @@ function Container5({ state }) {
       {/* HOw it works */}
       <div className="hmHa"></div>
 
-       <div className="hmHc">
-        
+      <div className="hmHc">
+
         <div className="hmHab">
-        Impact-driven individuals, businesses, and organizations
-       make a positive difference around the world. Diverse yet unified by a commitment
-        to social, environmental, and economic progress, we foster collaborations among 
-        visionary entrepreneurs, sustainability experts, and grassroots initiatives. 
-        Together, we ignite ideas, craft solutions, and navigate global challenges,
-         driven by a shared passion for positive change. From innovative pioneers to
+          Impact-driven individuals, businesses, and organizations
+          make a positive difference around the world. Diverse yet unified by a commitment
+          to social, environmental, and economic progress, we foster collaborations among
+          visionary entrepreneurs, sustainability experts, and grassroots initiatives.
+          Together, we ignite ideas, craft solutions, and navigate global challenges,
+          driven by a shared passion for positive change. From innovative pioneers to
           community champions, each brings unique strengths, fuelling a vibrant community
-           where creativity sparks innovation. We are weaving a collective fabric of resilience,
-            innovation, and compassion. Together we strive
-       for a future where impactful change resonates across all layers of society.
+          where creativity sparks innovation. We are weaving a collective fabric of resilience,
+          innovation, and compassion. Together we strive
+          for a future where impactful change resonates across all layers of society.
         </div>
       </div>
 
       <div className="hmHaba">Our Ethos</div>
       <div className="card-container">
-       {cardData.map((item)=> {
-        return(
-        <div className="card">
-        <div className="card-background" style={{ backgroundImage: `url(${item.backgroundImage})` }}>
-          <img src={item.image} alt="Card Image" className="card-image rotate-image" />
-          <div >
-            <h3 className="card-content">{item.heading}</h3>
-            <p className="card-summary-text">{item.summary}</p>
-          </div>
-        </div>
-      </div>)
-       })}
-       </div>
+        {cardData.map((item) => {
+          return (
+            <div className="card">
+              <div className="card-background" style={{ backgroundImage: `url(${item.backgroundImage})` }}>
+                <img src={item.image} alt="Card Image" className="card-image rotate-image" />
+                <div >
+                  <h3 className="card-content">{item.heading}</h3>
+                  <p className="card-summary-text">{item.summary}</p>
+                </div>
+              </div>
+            </div>)
+        })}
+      </div>
 
-{/* 
+      {/* 
       <div className="hmHc">
         <div className="hmHcA">2.</div>
         <div className="hmHcB">
@@ -526,83 +526,80 @@ function Container6() {
     myRef.current.scrollTo({ left, behavior: "smooth" });
   };
   return (
-    <div className="hmE hmeab" ref={myRef} >
-      <div style={{ gridColumnStart: 1, gridColumnEnd: 3, gridRowStart: 1, gridRowEnd: 3, backgroundColor: '#C9E6C7', borderRadius: '10px', width: '100%' }}>
-        <div style={{ width: '100%', display: 'flex', flexDirection: 'column', marginTop: '20%', paddingLeft: '10px' }}>
-          <span style={{
-            textAlign: 'left',
-            font: 'normal normal 600 56px/68px Montserrat',
-            letterSpacing: '-1.12px',
-            color: '#262626',
-            opacity: 1,
-            marginTop:'110px'
-          }}>
-            <img src={star_icon} className="rotate-image" style={{height:'60px',width:'60px'}}/>
+    // <div className="hmE" ref={myRef} style={{ backgroundColor: 'black' }}>
+    //   <div className="hmeab">
+    //     <div style={{ backgroundColor: '#C9E6C7', borderRadius: '10px', display: 'flex', justifyContent: 'space-between' }}>
+    //       <div style={{ width: '50%', flex: 2, flexDirection: 'column', marginTop: '20%', paddingLeft: '10px' }}>
+    //         <span style={{ textAlign: 'left', font: 'normal normal 600 56px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1, marginTop: '110px' }}>
+    //           <img src={star_icon} className="rotate-image" style={{ height: '60px', width: '60px' }} alt="Star Icon" />
+    //         </span>
+    //         <p style={{ fontSize: '26px', fontWeight: 'bold' }}>What inspires us?</p>
+    //         <p style={{ fontSize: '16px' }}>Our mission is to champion the creation of fair, regenerative, and resilient local and global communities that prioritize human well-being.</p>
+
+    //       </div>
+    //       <a href="blogs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents', width: '50%' }}>
+    //         <div style={{ backgroundColor: '#C9C9C9', borderRadius: '10px', display: 'flex', flexDirection: 'column', flex: 2, justifyContent: 'space-between', padding: '20px' }}>
+    //           <p style={{ textAlign: 'left', font: 'normal normal 600 22px/34px Montserrat', letterSpacing: '-0.64px', color: '#262626', opacity: 1 }}>What’s going on in our Ecosystem</p>
+    //           <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626' }}>View our blog</p>
+    //           <div style={{ flexDirection: 'row' }}>
+    //           <a href="/whyImpactEcosystem" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}></a>
+    //             <div style={{ backgroundColor: '#2F84F1', borderRadius: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: '10px' }}>
+    //               <p style={{ textAlign: 'left', font: 'normal normal 600 32px/34px', letterSpacing: '-1.12px', color: '#262626' }}>Discover about us</p>
+    //               <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1 }}>About Us</p>
+    //             </div>
+    //             <a href="contactUs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>
+    //               <div style={{ backgroundColor: '#6E8833', borderRadius: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: '10px' }}>
+    //                 <p style={{ textAlign: 'left', font: 'normal normal 600 56px/68px', letterSpacing: '-1.12px', color: '#262626' }}>Have some question?</p>
+    //                 <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1 }}>Contact Us</p>
+    //               </div>
+    //             </a>
+    //           </div>
+    //         </div>
+    //       </a>
+
+    //     </div>
+
+    //   </div>
+    // </div>
+
+
+
+
+    <div style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: 'black' }} className="hmE">
+      <div className="hme_ex">
+        <div className="hmE_wh">
+          <span style={{ textAlign: 'left', font: 'normal normal 600 56px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1, marginTop: '110px' }}>
+            <img src={star_icon} className="rotate-image" style={{ height: '60px', width: '60px' }} alt="Star Icon" />
           </span>
-          <p style={{fontSize:'26px',fontWeight:'bold'}}>What inspires us?</p>
-          <p style={{fontSize:'16px',}}>Our mission is to champion the creation of fair,<br/>
-           regenerative, and resilient local and global<br/> communities that prioritize human well-being.
-            
-            </p>
+          <p style={{ fontSize: '26px', fontWeight: 'bold' }}>What inspires us?</p>
+          <p style={{ fontSize: '16px' }}>Our mission is to champion the creation of fair, regenerative, and resilient local and global communities that prioritize human well-being.</p>
+
         </div>
       </div>
-      <a href="blogs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>
-      <div style={{ gridColumnStart: 3, gridColumnEnd: 5, backgroundColor: '#C9C9C9', borderRadius: '10px', display: "flex", flexDirection: 'column', justifyContent: 'space-between', padding: '20px' }}>
-        {/* <div style={{}}> */}
-        <p style={{
-          textAlign: 'left',
-          font: 'normal normal 600 22px/34px Montserrat',
-          letterSpacing: ' -0.64px',
-          color: '#262626',
-          opacity: 1
-        }}>What’s going on in our Ecosystem</p>
+      <div className="hmE_eco">
+        <div style={{}}>
+          <div style={{ backgroundColor: '#C9C9C9', height: '200px', borderRadius: '10px', display: 'flex', flexDirection: 'column', flex: 2, justifyContent: 'space-between', padding: '20px' }}>
+            <p style={{ textAlign: 'left', font: 'normal normal 600 22px/34px Montserrat', letterSpacing: '-0.64px', color: '#262626', opacity: 1 }}>What’s going on in our Ecosystem</p>
+            <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626' }}>View our blog</p></div>
+        </div>
 
-        <p style={{
-          textAlign: 'left',
-          font: 'normal normal 600 36px/68px Montserrat',
-          letterSpacing: '-1.12px',
-          color: '#262626',
-        }}>View our blog</p>
-        {/* </div> */}
-
-
+        <div className="hmE_abt">
+          <div> <a href="/whyImpactEcosystem" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}></a>
+            <div className="hmE_dis">
+              <p style={{ textAlign: 'left', font: 'normal normal 600 32px/34px', letterSpacing: '-1.12px', color: '#262626' }}>Discover about us</p>
+              <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1 }}>About Us</p>
+            </div>
+          </div>
+          <div>
+            <a href="contactUs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>
+              <div  className="hmE_con">
+                <p style={{ textAlign: 'left', font: 'normal normal 600 56px/68px', letterSpacing: '-1.12px', color: '#262626' }}>Have some question?</p>
+                <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1 }}>Contact Us</p>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-      </a>
-      <a href="/whyImpactEcosystem" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}></a>
-      <div style={{ gridRowStart: 2, gridRowEnd: 2, backgroundColor: '#2F84F1', borderRadius: '10px', display: "flex", flexDirection: 'column', justifyContent: 'space-between', padding: '10px' }}>
-        <p style={{
-          textAlign: 'left',
-          font: 'normal normal 600 32px/34px',
-          letterSpacing: '-1.12px',
-          color: '#262626',
-        }}>Discover about us</p>
-        <p style={{
-         textAlign: 'left',
-         font: 'normal normal 600 36px/68px Montserrat',
-         letterSpacing: '-1.12px',
-         color: '#262626',
-         opacity: 1
-        }}>About Us</p>
-        {/* Your content for the third grid cell */}
-      </div>
-      <a href="contactUs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>
-      <div style={{ gridRowStart: 2, gridRowEnd: 2, backgroundColor: '#6E8833', borderRadius: '10px', display: "flex", flexDirection: 'column', justifyContent: 'space-between', padding: '10px' }}>
-      
-        <p style={{
-          textAlign: 'left',
-          font: 'normal normal 600 56px/68px',
-          letterSpacing: '-1.12px',
-          color: '#262626',
-        }}>Have some question?</p>
-        <p style={{
-         textAlign: 'left',
-         font: 'normal normal 600 36px/68px Montserrat',
-         letterSpacing: '-1.12px',
-         color: '#262626',
-         opacity: 1
-        }}>Contact Us</p>
-      </div>
-    </a>
     </div>
   );
 }
