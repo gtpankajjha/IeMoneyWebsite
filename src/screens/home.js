@@ -2,8 +2,7 @@ import React, { Component, StrictMode, useRef, useState } from "react";
 import { AppHeader, AppFooter } from "../widgets/headerFooter";
 import "../styles/hm.css";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
-import bgVedio from "../assets/background/bg1.mp4";
-import bgVedioImg from "../assets/background/home-bg-img.png";
+
 import banner from "../assets/banner.png";
 import bannerMobile from "../assets/banner-mobile.png";
 import surveyBtn from "../assets/survey-button.png";
@@ -292,9 +291,13 @@ function Container4() {
     <div className="main-container" >
       <div className="main-box">
         <div className="column-container">
-          <div className="column-box blue">The Philanthropic<br /> Currency</div>
+          <div className="column-box blue">
+            <span className="fade_green">The Philanthropic<br /> Currency</span><br/>
+          <span className="fade_white">Powered by Impact Investments,<br/> Natural Capital & Team Humanity</span>
+          </div>
+          
           <div className="column-box orange">
-            <div className="learn_more">LEARN MORE AND RECIEVE $5000<br /> WORTH DONATIONS</div>
+            <div className="learn_more">ATTEND A CALL TO LEARN MORE AND<br/> BECOME ELIGIBLE FOR A GRANT WORTH<br/> UPTO $100,000 FOR YOUR NGO</div>
             <a href="explore">
               <div style={{ color: 'white', width: '250px', border: '2px solid #6E8833', borderRadius: '30px', textAlign: 'center', padding: '10px', marginTop: '20px' }}>EXPLORE</div>
             </a>
@@ -584,7 +587,8 @@ function Container6() {
         </div>
 
         <div className="hmE_abt">
-          <div> <a href="/whyImpactEcosystem" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}></a>
+          <div> 
+            <a href="/whyImpactEcosystem" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}></a>
             <div className="hmE_dis">
               <p style={{ textAlign: 'left', font: 'normal normal 600 32px/34px', letterSpacing: '-1.12px', color: '#262626' }}>Discover about us</p>
               <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1 }}>About Us</p>
