@@ -63,7 +63,7 @@ export default class Explore extends Component {
         <div className="exe_holder">
         <div className="text-overlay on_video_container">
             <a className="ex_logo" href="/" />
-              <div><h1 className="on_video_text">Are you looking for better fundraising tool which<br/> empower Nonprofits and Philanthropists for a<br/> Greater Impact?</h1></div>
+              <div><h1 className="on_video_text">The Ultimate Next-Gen Giving Solution</h1></div>
             <a
             
           target="_blank"
@@ -94,11 +94,11 @@ export default class Explore extends Component {
        {/* need space in between this text and image */}
        <div className="ex_text_holder">
        <div className="ex_title">
-        At Impact ecosystem, we believe in turning assets into impact.<br/>
-         Accept appreciated assets, such as stocks and<br/> cryptocurrencies,
-          and unlock a new realm of generosity.<br/> 
-          Your donors can contribute in ways that resonate with them<br/> 
-          while elevating the reach of your cause.
+       At Impact Ecosystem, we believe in turning networks, assets,<br/>
+      and money into impact. Appreciated assets unlock a new realm<br/>
+      of generosity and potential tax benefits<br/> <br/>
+      Donor Money turns cash donations into appreciated assets<br/>
+       amplifying the impact of your NGO.
         </div>
         <div style={{flex:1,marginTop:'3%'}} >
         <img src={yourImage} alt="Your Alt Text" />
@@ -106,8 +106,7 @@ export default class Explore extends Component {
        </div>
        
 <div className="ex_summary">
-  Are you allowing your donors to minimise tax deductions<br/> 
-  and maximise impact?</div>     
+Are you allowing your donors to maximise tax deductions<br/> and their philanthropic impact?</div>     
       </div>
       {/* <Container2 /> */}
      
@@ -158,8 +157,9 @@ Are your investible assets promoting your<br/> philanthropic missions?</div>
           <div>
           <a href="https://calendly.com/abhishek-iemoney/30min" >
           <div className="otHa" style={{color:'#09C700'}}>
-          ATTEND A CALL TO LEARN MORE AND RECIEVE<br/> $5000 WORTH DONATIONS FOR YOUR NGO<br/>
-          
+          ATTEND A CALL TO LEARN MORE AND<br/>
+          BECOME ELIGIBLE FOR A GRANT WORTH<br/>
+           UPTO $100,000 FOR YOUR NGO
           </div>
           </a>
           <a
