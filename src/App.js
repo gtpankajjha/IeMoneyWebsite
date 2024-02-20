@@ -25,7 +25,7 @@ import popup from "./assets/Modal_img.png"
 import cancel_icon from "./assets/cancel_icon.png"
 
 export default function App() {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   useEffect(() => {
     // ReactGA.pageview(window.location.pathname + window.location.search);
     ReactGA.send({

@@ -63,7 +63,12 @@ export default class Explore extends Component {
         <div className="exe_holder">
         <div className="text-overlay on_video_container">
             <a className="ex_logo" href="/" />
-              <div><h1 className="on_video_text">The Ultimate Next-Gen Giving Solution</h1></div>
+              <div className="on_video_text">
+                <h1 style={{color:'white',textAlign:'center',font: 'normal normal 500 36px/68px Montserrat'}} >The Ultimate In Next-Gen Giving
+                <br/><span style={{color:'white',textAlign:'center',fontSize:'14px',font: 'normal normal 500 16px/68px Montserrat'}}>Turning cash donations into appreciated assets</span>
+                </h1>
+              
+              </div>
             <a
             
           target="_blank"
@@ -96,7 +101,7 @@ export default class Explore extends Component {
        <div className="ex_title">
        At Impact Ecosystem, we believe in turning networks, assets,<br/>
       and money into impact. Appreciated assets unlock a new realm<br/>
-      of generosity and potential tax benefits<br/> <br/>
+      of generosity and potential tax benefits.<br/> <br/>
       Donor Money turns cash donations into appreciated assets<br/>
        amplifying the impact of your NGO.
         </div>
@@ -115,10 +120,10 @@ Are you allowing your donors to maximise tax deductions<br/> and their philanthr
        {/* need space in between this text and image */}
        <div className="ex_text_holder">
        <div className="ex_title">
-       Discover the power of continuous support. We enable<br/>
-       automatic and recurring donations that provide stability for your<br/>organization.<br/><br/>
-       Cultivate lasting relationships with donors who are committed to<br/> 
-       your cause, ensuring sustained impact over time<br/> 
+       Discover the power of continuous support. Automatic and<br/>
+        recurring donations provide stability for your organization.<br/><br/>
+        Cultivate lasting relationships with donors who are committed to<br/>
+        your cause, ensuring sustained impact over time.<br/> 
          
         </div>
         <div style={{flex:1,marginTop:'3%'}} >
@@ -139,7 +144,7 @@ Are you allowing your donors to maximise tax deductions<br/> and their philanthr
        <div className="ex_text_holder">
        <div className="ex_title">
        Optimize your organization’s balance sheet for greater mission<br/>
-       ulfillment. Donor Coin empowers you to leverage investable<br/> assets strategically, aligning financial strength with the<br/> 
+       Fulfillment. Donor Coin empowers you to leverage investable<br/> assets strategically, aligning financial strength with the<br/> 
        advancement of your mission. <br/><br/> 
        Explore innovative avenues to fund your cause without <br/>compromising financial stability.
         </div>
@@ -157,9 +162,8 @@ Are your investible assets promoting your<br/> philanthropic missions?</div>
           <div>
           <a href="https://calendly.com/abhishek-iemoney/30min" >
           <div className="otHa" style={{color:'#09C700'}}>
-          ATTEND A CALL TO LEARN MORE AND<br/>
-          BECOME ELIGIBLE FOR A GRANT WORTH<br/>
-           UPTO $100,000 FOR YOUR NGO
+          SCHEDULE A CALL TO LEARN MORE AND<br/>
+          BECOME ELIGIBLE FOR A GRANT WORTH UP <br/>TO $100,000 FOR YOUR NGO
           </div>
           </a>
           <a

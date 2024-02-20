@@ -87,9 +87,9 @@
   }
   .ex_logo {
     margin-left: -40px;
-    width: 110px;
-    height: 100px;
-    background-image: url(../assets/icons/myLogo.svg);
+    width: 205px;
+    height: 85px;
+    background-image: url(../assets/donor_icon.png);
     /* background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
@@ -120,6 +120,8 @@
     color:white;
     flex:2;
     margin-top: 5%;
+    font-family: Helvetica;
+    font-weight: 400;
     
   }
   @media only screen and (max-width: 406px) {
@@ -159,7 +161,7 @@
         color: #B5D6BC;
         letter-spacing: 1px;
         font-size: 7px;
-        text-align: center;
+        /* text-align: center; */
         margin-top: 20px;
       }
 

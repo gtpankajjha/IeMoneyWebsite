@@ -130,7 +130,7 @@ export function AppHeader() {
           // rel="noreferrer"
           className="hfAbB"
         >
-          Get IE Money
+          Donor Money
         </a>
 
         {/* mobile nav */}

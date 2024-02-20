@@ -48,7 +48,7 @@
 
 .hmBab {
    /* Ensure the video width is 100% of its container */
-  max-width: 800px; /* Set a maximum width for the video */
+  max-width: 750px; /* Set a maximum width for the video */
 
 }
 .card-container {
@@ -67,6 +67,7 @@
   padding-top: 0px;
   color: white;
   text-align: left;
+  font-family: Helvetica;
 }
 .hmHaba {
   font-size: 34px;
@@ -158,7 +159,7 @@ width: 100%;
   width: calc(25% - 20px); 
    margin-bottom: 20px;
    margin-left: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .card-background {
@@ -181,7 +182,7 @@ width: 100%;
 .card-content {
   padding: 20px;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 .card-summary-text {
   font-size: 16px;
@@ -189,7 +190,8 @@ width: 100%;
   font-weight: 400;
   letter-spacing: 0.5px;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  font-family:Helvetica;
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 video {
   object-fit: contain;
@@ -210,9 +212,8 @@ video {
   color: #FFFFFF;
   padding: 10px;
   font-family: system-ui;
-  width: 230px; /* You may adjust this width as needed */
+  width: 260px; /* You may adjust this width as needed */
   height: 40px;
-  font-size: 23px;
   padding: 20px;
   letter-spacing: 2px;
   margin-top: 60px;
@@ -284,9 +285,10 @@ video {
   color: #FFFFFF;
   padding: 10px;
   font-family: system-ui;
-  width: 303px;/* You may adjust this width as needed */
+  width: 320px;/* You may adjust this width as needed */
   height: 40px;
-  font-size: 23px;
+  
+
   padding: 20px;
   letter-spacing: 2px;
   margin-top: 60px;
@@ -331,6 +333,13 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center; /* Align the text in each column in the center */
+ 
+}
+.hmBb_holder_sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align the text in each column in the center */
+ 
 }
 .hmBc {
   height: 58px;
@@ -584,10 +593,11 @@ video {
 .hmCc {
   font-size: 28px;
   text-align: left;
+  
   margin: 20px 0;
   width: 60%;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  Helvetica;
 }
 
 .hmCd {

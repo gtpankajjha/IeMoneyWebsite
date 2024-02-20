@@ -68,19 +68,19 @@ export default class HomeScreen extends Component {
           <div className="hmBa">
             <div className="hmBb">
               <div className="hmBb_holder">
-                <a href="/whyImpactEcosystem"><div className="hmba-text" ><span>About Us</span></div></a>
-                <a onClick={this.handleNewtorkClick}><div className="hmba-text" >Community</div></a>
-                <a href="explore"><div className="hmba-text" >Book A Meeting</div></a>
+                <a href="/whyImpactEcosystem"><div className="hmba-text"  style={{font: 'normal normal 400 19px/68px Montserrat'}}><span>About Us</span></div></a>
+                <a onClick={this.handleNewtorkClick}><div className="hmba-text" style={{font: 'normal normal 400 19px/68px Montserrat'}} >Community</div></a>
+                <a href="explore"><div className="hmba-text" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Book A Meeting</div></a>
               </div>
               {/* <div > */}
               <video autoPlay loop muted className="hmBab">
                 <source src={FINAL_1} type="video/mp4" />
               </video>
               {/* </div> */}
-              <div className="hmBb_holder">
-                <a href="explore"><div className="hmba-text-second">Philanthropy</div></a>
-                <a href="contest"> <div className="hmba-text-second" href="/contest">Events</div></a>
-                <a href="whyImpactEcosystem"><div className="hmba-text-second">Why Impact Ecosystem</div></a>
+              <div className="hmBb_holder_sec">
+                <a href="explore"><div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Philanthropy</div></a>
+                <a href="contest"> <div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}  href="/contest">Events</div></a>
+                <a href="whyImpactEcosystem"><div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Why Impact Ecosystem</div></a>
               </div>
             </div>
           </div>
@@ -99,11 +99,11 @@ export default class HomeScreen extends Component {
         <div className="hmC">
           {/* <div className="hmCa">Introducing</div>
           <div className="hmCb">IE.Money</div> */}
-          <div className="hmCc">
-            {`A Holistic Solution Including Non-Profit
-          Grants,Community Currency, Regenerative 
-          Product Discounts, And Rewards For 
-          Ecosystem Services & Impact Investments`}
+          <div className="hmCc" style={{font: 'normal normal 500 29px/68px Montserrat'}} >
+          {`A Holistic Solution Including Non-Profit
+           Grants, Community Collaboration, Product
+            Discounts, and Rewards for Ecosystem
+             Services & Impact Investments`}
           </div>
           <div className="backimage rotate-image"  >
             {/* <img src="../assets/background/bg11.png" 
