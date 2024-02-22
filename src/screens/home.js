@@ -571,11 +571,11 @@ function Container6() {
     <div style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: 'black' }} className="hmE">
       <div className="hme_ex">
         <div className="hmE_wh">
-          <span style={{ textAlign: 'left', font: 'normal normal 600 56px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1, marginTop: '110px' }}>
-            <img src={star_icon} className="rotate-image" style={{ height: '60px', width: '60px' }} alt="Star Icon" />
+          <span className="customText">
+            <img src={star_icon} className="rotate-image" style={{ height: '60px', width: '60px',marginTop:'60%' }} alt="Star Icon" />
           </span>
-          <p style={{ fontSize: '26px', fontWeight: 'bold' }}>What inspires us?</p>
-          <p style={{ fontSize: '16px' }}>Our mission is to champion the creation of fair, regenerative, and resilient local and global communities that prioritize human well-being.</p>
+          <p className="customeText_header">What inspires us?</p>
+          <p className="customeText_summary">Our mission is to champion the creation of fair, regenerative, and resilient local and global communities that prioritize human well-being.</p>
 
         </div>
       </div>

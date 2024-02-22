@@ -269,7 +269,26 @@ video {
   padding: 10px;
 }
 
-
+.customText {
+  text-align: left;
+  font: normal normal 600 56px/68px Montserrat, sans-serif;
+  letter-spacing: -1.12px;
+  color: #262626;
+  opacity: 1;
+  margin-top: 20%;
+}
+.customText_image{
+  height: 40px;
+   width: 40px;
+}
+.customText_hearder {
+font-weight: bold;
+font-size: 26px;
+}
+.customText_summary{
+  font-size: 16px;
+  
+  }
 
 .hmC {
   display: flex;
@@ -422,7 +441,7 @@ video {
        flex: 2;
         border-radius: 10px;
          margin-right: 5px;
-       margin-top: 25%;  
+       margin-top: 42%;  
     }
     .hmE {
       background-color: #d3d3d3;
