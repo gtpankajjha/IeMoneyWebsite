@@ -99,7 +99,7 @@ export default class HomeScreen extends Component {
         <div className="hmC">
           {/* <div className="hmCa">Introducing</div>
           <div className="hmCb">IE.Money</div> */}
-          <div className="hmCc" style={{font: 'normal normal 500 29px/68px Montserrat'}} >
+          <div className="hmCc" >
           {`A Holistic Solution Including Non-Profit
            Grants, Community Collaboration, Product
             Discounts, and Rewards for Ecosystem
