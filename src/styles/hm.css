@@ -208,6 +208,19 @@ video {
   z-index: -1;
   background-color: black;
 }
+.hmBa_text_abt {
+  text-align: left;
+  font: normal normal 600 36px/68px Montserrat, sans-serif;
+  letter-spacing: -1.12px;
+  color: #262626;
+  opacity: 1;
+}
+.customText_abt2 {
+  text-align: left;
+  font: normal normal 600 56px/68px sans-serif;
+  letter-spacing: -1.12px;
+  color: #262626;
+}
 .hmba-text{
   color: #FFFFFF;
   padding: 10px;
@@ -218,7 +231,7 @@ video {
   letter-spacing: 2px;
   margin-top: 60px;
   text-align: left; 
- 
+  font: normal normal 500 19px/68px Montserrat, sans-serif;
 }
 .hmE_wh{
   width: 50%;
@@ -277,10 +290,7 @@ video {
   opacity: 1;
   margin-top: 20%;
 }
-.customText_image{
-  height: 40px;
-   width: 40px;
-}
+
 .customText_hearder {
 font-weight: bold;
 font-size: 26px;
@@ -546,6 +556,7 @@ font-size: 26px;
   text-align: left;
   font-size: 30px;
   width: 360px;
+  margin-top: 25px;
 }
 
 .orange {
@@ -635,6 +646,19 @@ font-size: 26px;
   .hmCa {
     font-size: 28px;
     margin: 12px 0;
+  }
+  .hmBa_text_abt {
+    text-align: left;
+    font: normal normal 600 30px/48px Montserrat, sans-serif;
+    letter-spacing: -1.12px;
+    color: #262626;
+    opacity: 1;
+  }
+  .customText_abt2 {
+    text-align: left;
+    font: normal normal 600 36px/48px sans-serif;
+    letter-spacing: -1.12px;
+    color: #262626;
   }
   .hmCb {
     font-size: 52px;
@@ -890,7 +914,7 @@ font-size: 26px;
 .hmHd {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px -20px;
+  margin: 100px -20px;
 }
 .hmHdA {
   margin-left: 0px;

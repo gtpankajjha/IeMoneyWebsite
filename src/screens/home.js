@@ -597,8 +597,8 @@ function Container6() {
           <div>
             <a href="contactUs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>
               <div  className="hmE_con">
-                <p style={{ textAlign: 'left', font: 'normal normal 600 56px/68px', letterSpacing: '-1.12px', color: '#262626' }}>Have some question?</p>
-                <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1 }}>Contact Us</p>
+                <p className="hmBa_text_abt2">Have some question?</p>
+                <p className="hmBa_text_abt">Contact Us</p>
               </div>
             </a>
           </div>

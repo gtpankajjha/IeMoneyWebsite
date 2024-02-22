@@ -64,8 +64,8 @@ export default class Explore extends Component {
         <div className="text-overlay on_video_container">
             <a className="ex_logo" href="/" />
               <div className="on_video_text">
-                <h1 style={{color:'white',textAlign:'center',font: 'normal normal 500 36px/68px Montserrat'}} >The Ultimate In Next-Gen Giving
-                <br/><span style={{color:'white',textAlign:'center',fontSize:'14px',font: 'normal normal 500 16px/68px Montserrat'}}>Turning cash donations into appreciated assets</span>
+                <h1 className="ex_customText" >The Ultimate In Next-Gen Giving
+                <br/><span className="customText_summary">Turning cash donations into appreciated assets</span>
                 </h1>
               
               </div>
