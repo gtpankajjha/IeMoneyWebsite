@@ -93,19 +93,8 @@ const Networks = () => {
             strengthening community ties.
           </div>
         </div>
-        {/* <div className="nwAa">
-            <div className="nwAaA">INDIVIDUALS</div>
-            <div className="nwAaB">
-              Impact investing has become increasingly popular in recent years,
-              as more investors are looking to align their investments with
-              their values and make a positive impact in the world. Impact
-              investors are powerful force for good, helping to finance
-              businesses and projects that have the potential to create positive
-              change in society and the environment.
-            </div>
-          </div> */}
+      
       </div>
-
       {/* intro */}
       <div className="nwB">
         <div className="nwBa">We are joining hands for impact</div>
@@ -122,38 +111,6 @@ const Networks = () => {
         </div>
       </div>
 
-      {/* impact created */}
-      {/* <div className="nwC">
-          <div className="nwCa">Imapct created so far</div>
-          <div className="nwCb">
-            The Biggest part of donations are coming from Canada, Russia and
-            India.
-          </div>
-          <div className="nwCc">
-            <div className="nwCcA">
-              <div className="nwCcAa">$200,000,735</div>
-              <div className="nwCcAb">Total Donation Amount</div>
-              <div className="nwCcAc">
-                <div className="nwCcAcA">
-                  <div className="nwCcAcAa">$03</div>
-                  <div className="nwCcAcAb">The Smallest donate we got</div>
-                </div>
-                <div className="nwCcAcA">
-                  <div className="nwCcAcAa">$2,357</div>
-                  <div className="nwCcAcAb">The Biggest donate we got</div>
-                </div>
-              </div>
-            </div>
-            <div className="nwCcB">
-              <div className="nwCcBa"></div>
-              <div className="nwCcBb">READ THE FULL REPORT</div>
-            </div>
-          </div>
-          <div className="nwCd">
-            *The Data is Provided for the Period from 26.02.2022 to 20.12.2022
-          </div>
-        </div> */}
-
       {/* IMpact partners */}
       <div className="nwD">
         <div className="nwDa">Impact Projects</div>
@@ -167,10 +124,7 @@ const Networks = () => {
             <FiFilter className="w-8 h-8" />
             <span className="font-bold">Filter by category</span>
 
-            {/* <CategoryFilterDropdown
-              setSelectedCategory={setSelectedCategory}
-              selectedCategory={selectedCategory}
-            /> */}
+           
           </div>
 
           {showFilter && (
@@ -219,20 +173,6 @@ const Networks = () => {
               </div>
             </form>
           </div>
-
-          {/* <div className="flex flex-wrap gap-4">
-            <div className="p-2 rounded-full bg-green-500/50">
-              <div className="font-bold">Carbon</div>
-            </div>
-
-            <div className="p-2 rounded-full bg-green-500/50">
-              <div className="font-bold">Carbon</div>
-            </div>
-
-            <div className="p-2 rounded-full bg-green-500/50">
-              <div className="font-bold">Carbon</div>
-            </div>
-          </div> */}
         </div>
 
         {/* partners data */}
@@ -374,15 +314,6 @@ const Networks = () => {
           )}
         </div>
       </div>
-
-      {/* Our Impact investors */}
-      {/* <div className="nwD">
-          <div className="nwDa">Our Impact investors</div>
-          <Card1 reverse data={cardsData[2]} />
-          <Card1 reverse data={cardsData[2]} />
-          <Card1 reverse data={cardsData[2]} />
-        </div> */}
-
       <AppFooter />
       <AppHeader />
     </StrictMode>
