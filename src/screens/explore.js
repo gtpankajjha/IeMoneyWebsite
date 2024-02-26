@@ -100,8 +100,8 @@ export default class Explore extends Component {
        <div className="ex_text_holder">
        <div className="ex_title">
        At Impact Ecosystem, we believe in turning networks, assets,<br/>
-      and money into impact. Large capital gains unlock a new level<br/>
-       of generosity and potential tax benefits.<br/> <br/>
+      and money into impact. Appreciated assets unlock a new realm<br/>
+      of generosity and potential tax benefits.<br/> <br/>
       Donor Money turns cash donations into appreciated assets<br/>
        amplifying the impact of your NGO.
         </div>
@@ -144,10 +144,9 @@ Are you allowing your donors to maximise tax deductions<br/> and their philanthr
        <div className="ex_text_holder">
        <div className="ex_title">
        Optimize your organization’s balance sheet for greater mission<br/>
-       Fulfillment. Donor Money empowers you to leverage investable<br/>
-       assets strategically, aligning financial strength with the<br/>
+       Fulfillment. Donor Coin empowers you to leverage investable<br/> assets strategically, aligning financial strength with the<br/> 
        advancement of your mission. <br/><br/> 
-       Explore innovative avenues to fund your cause while<br/>improving financial stability.
+       Explore innovative avenues to fund your cause without <br/>compromising financial stability.
         </div>
         <div style={{flex:1,marginTop:'3%'}} >
         <img src={office} alt="Your Alt Text" />
@@ -155,7 +154,7 @@ Are you allowing your donors to maximise tax deductions<br/> and their philanthr
        </div>
        
 <div className="ex_summary">
-Are your investable assets promoting your<br/> philanthropic missions?</div>     
+Are your investible assets promoting your<br/> philanthropic missions?</div>     
       </div>
 
       <div className="otH">

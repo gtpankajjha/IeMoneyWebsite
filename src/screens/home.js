@@ -292,8 +292,8 @@ function Container4() {
       <div className="main-box">
         <div className="column-container">
           <div className="column-box blue">
-            <span className="fade_green">Donor<br />Money</span><br/>
-          <span className="fade_white">Turning cash donations into<br/>appreciated assets</span>
+            <span className="fade_green">The Philanthropic<br /> Currency</span><br/>
+          <span className="fade_white">Powered by Impact Investments,<br/> Natural Capital & Team Humanity</span>
           </div>
           
           <div className="column-box orange">
@@ -428,7 +428,7 @@ function Container5({ state }) {
       {/* /////////////////////////////////////////////////////////////// */}
       {/* /////////////////////////////////////////////////////////////// */}
       {/* /////////////////////////////////////////////////////////////// */}
-      <div className="hmHa">AREAS OF INTERESTS</div>
+      {/* <div className="hmHa">OUR NETWORK</div> */}
       <div className="hmHd" id="community" >
         {/* <div className="hmHdA c20" onClick={() => navScreen("/networks")}> */}
         <a href="/individuals-networks" className="hmHdA c20">
