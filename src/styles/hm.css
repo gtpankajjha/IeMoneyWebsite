@@ -76,11 +76,22 @@
   color: white;
   text-align: center;
 }
+.customeText_header{
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.customeText_summary{
+  font-size: 16px;
+  font-weight: 700;
+  width: 300px;
+  margin-top: 5%;
+}
 .main-container {
 display: flex;
 justify-content: center;
 align-items: center;
-background-image:url(../assets/background/bg10.png); 
+background-image:url(../assets/background/bg10.jpg); 
 height: 100vh;
 width: 100%;
 }
@@ -122,20 +133,26 @@ width: 100%;
   background-color: #6E8833;
   padding: 30px;
   width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .fade_white {
   color: white;
   text-align: left;
-  font-size: 12px;
+  /* font-size: 12px; */
+  font: normal normal 400 14px/18px Montserrat, sans-serif;
+
   letter-spacing: 1px;
-  font-weight: 400;
+  /* font-weight: 400; */
   width: 250px;
 }
 .fade_green {
   color: white;
   text-align: left;
-  font-size: 30px;
+  /* font-size: 30px; */
   width: 250px;
+  font: normal normal 500 36px/38px Montserrat, sans-serif;
 }
 
 .orange {
@@ -245,6 +262,7 @@ video {
    flex: 2;
     border-radius: 10px;
      margin-right: 5px;
+     padding: 20px;
      
 }
 .hmE_eco{
@@ -252,6 +270,7 @@ video {
     flex-direction: column;
       margin-left: 5px;
       height: 400px;
+      
       
 }
 .hmE_abt{
@@ -268,7 +287,7 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
   margin-left: 5px;
 }
 .hmE_dis{
@@ -279,7 +298,7 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
 }
 
 .customText {

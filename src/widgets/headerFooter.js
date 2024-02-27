@@ -123,16 +123,14 @@ export function AppHeader() {
             </a> */}
           </div>
         </div>
-   
         <a
-          href="explore"
+          href="http://www.donor.money/"
           // target="_blank"
           // rel="noreferrer"
           className="hfAbB"
         >
-          Donor Money
+         Donor Money
         </a>
-
         {/* mobile nav */}
         <div className="hfAbC" onClick={() => setisNavDrower(!isNavDrower)}>
           {isNavDrower ? (

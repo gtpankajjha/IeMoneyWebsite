@@ -70,7 +70,7 @@ export default class HomeScreen extends Component {
               <div className="hmBb_holder">
                 <a href="/whyImpactEcosystem"><div className="hmba-text"  style={{font: 'normal normal 400 19px/68px Montserrat'}}><span>About Us</span></div></a>
                 <a onClick={this.handleNewtorkClick}><div className="hmba-text" style={{font: 'normal normal 400 19px/68px Montserrat'}} >Community</div></a>
-                <a href="explore"><div className="hmba-text" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Book A Meeting</div></a>
+                <a href="http://www.donor.money/"><div className="hmba-text" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Book A Meeting</div></a>
               </div>
               {/* <div > */}
               <video autoPlay loop muted className="hmBab">
@@ -78,7 +78,7 @@ export default class HomeScreen extends Component {
               </video>
               {/* </div> */}
               <div className="hmBb_holder_sec">
-                <a href="explore"><div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Philanthropy</div></a>
+                <a href="http://www.donor.money/"><div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Philanthropy</div></a>
                 <a href="contest"> <div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}  href="/contest">Events</div></a>
                 <a href="whyImpactEcosystem"><div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Why Impact Ecosystem</div></a>
               </div>
@@ -298,8 +298,8 @@ function Container4() {
           
           <div className="column-box orange">
             <div className="learn_more">ATTEND A CALL TO LEARN MORE AND<br/> BECOME ELIGIBLE FOR A GRANT WORTH<br/> UPTO $100,000 FOR YOUR NGO</div>
-            <a href="explore">
-              <div style={{ color: 'white', width: '250px', border: '2px solid #6E8833', borderRadius: '30px', textAlign: 'center', padding: '10px', marginTop: '20px' }}>EXPLORE</div>
+            <a href="http://www.donor.money/">
+              <div style={{ color: 'white', width: '250px', border: '2px solid #6E8833', borderRadius: '30px', textAlign: 'center', padding: '10px', marginTop: '20px' }}>Explore</div>
             </a>
           </div>
         </div>
@@ -428,7 +428,7 @@ function Container5({ state }) {
       {/* /////////////////////////////////////////////////////////////// */}
       {/* /////////////////////////////////////////////////////////////// */}
       {/* /////////////////////////////////////////////////////////////// */}
-      <div className="hmHa">AREAS OF INTERESTS</div>
+      <div className="hmHa"></div>
       <div className="hmHd" id="community" >
         {/* <div className="hmHdA c20" onClick={() => navScreen("/networks")}> */}
         <a href="/individuals-networks" className="hmHdA c20">
@@ -572,7 +572,7 @@ function Container6() {
       <div className="hme_ex">
         <div className="hmE_wh">
           <span className="customText">
-            <img src={star_icon} className="rotate-image" style={{ height: '60px', width: '60px',marginTop:'60%' }} alt="Star Icon" />
+            <img src={star_icon} className="rotate-image" style={{ height: '60px', width: '60px',marginTop:'50%' }} alt="Star Icon" />
           </span>
           <p className="customeText_header">What inspires us?</p>
           <p className="customeText_summary">Our mission is to champion the creation of fair, regenerative, and resilient local and global communities that prioritize human well-being.</p>
@@ -580,20 +580,22 @@ function Container6() {
         </div>
       </div>
       <div className="hmE_eco">
+      <a href="/blogs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>
         <div style={{}}>
           <div style={{ backgroundColor: '#C9C9C9', height: '200px', borderRadius: '10px', display: 'flex', flexDirection: 'column', flex: 2, justifyContent: 'space-between', padding: '20px' }}>
             <p style={{ textAlign: 'left', font: 'normal normal 600 22px/34px Montserrat', letterSpacing: '-0.64px', color: '#262626', opacity: 1 }}>What’s going on in our Ecosystem</p>
             <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626' }}>View our blog</p></div>
         </div>
-
+      </a>
         <div className="hmE_abt">
           <div> 
-            <a href="/whyImpactEcosystem" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}></a>
+            <a href="/whyImpactEcosystem" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>
             <div className="hmE_dis">
               <p style={{ textAlign: 'left', font: 'normal normal 600 32px/34px', letterSpacing: '-1.12px', color: '#262626' }}>Discover about us</p>
               <p style={{ textAlign: 'left', font: 'normal normal 600 36px/68px Montserrat', letterSpacing: '-1.12px', color: '#262626', opacity: 1 }}>About Us</p>
-            </div>
+            </div></a>
           </div>
+
           <div>
             <a href="contactUs" style={{ textDecoration: 'none', color: 'inherit', display: 'contents' }}>
               <div  className="hmE_con">
