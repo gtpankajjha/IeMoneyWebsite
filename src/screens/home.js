@@ -68,9 +68,9 @@ export default class HomeScreen extends Component {
           <div className="hmBa">
             <div className="hmBb">
               <div className="hmBb_holder">
-                <a href="/whyImpactEcosystem"><div className="hmba-text"  style={{font: 'normal normal 400 19px/68px Montserrat'}}><span>About Us</span></div></a>
-                <a onClick={this.handleNewtorkClick}><div className="hmba-text" style={{font: 'normal normal 400 19px/68px Montserrat'}} >Community</div></a>
-                <a href="http://www.donor.money/"><div className="hmba-text" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Book A Meeting</div></a>
+               <div className="hmba-text"  > <a href="/whyImpactEcosystem"><span>About Us</span></a></div>
+                <div className="hmba-text"  ><a onClick={this.handleNewtorkClick}>Community</a></div>
+               <div className="hmba-text" > <a href="http://www.donor.money/">Book A Meeting</a></div>
               </div>
               {/* <div > */}
               <video autoPlay loop muted className="hmBab">
@@ -78,9 +78,9 @@ export default class HomeScreen extends Component {
               </video>
               {/* </div> */}
               <div className="hmBb_holder_sec">
-                <a href="http://www.donor.money/"><div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Philanthropy</div></a>
-                <a href="contest"> <div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}  href="/contest">Events</div></a>
-                <a href="whyImpactEcosystem"><div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}>Why Impact Ecosystem</div></a>
+                <div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}><a href="http://www.donor.money/">Philanthropy</a></div>
+                 <div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}  href="/contest"><a href="contest">Events</a></div>
+                <div className="hmba-text-second" style={{font: 'normal normal 400 19px/68px Montserrat'}}><a href="whyImpactEcosystem">Why Impact Ecosystem</a></div>
               </div>
             </div>
           </div>
